@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-01T17:56:01+00:00",
+  "updated_at": "2026-11-02T21:42:39+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -156,8 +156,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": -4,
-        "per_day": -3.9
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -236,8 +236,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": -43,
-        "per_day": -41.8
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -255,7 +255,7 @@
       "keywords": [
         "Agents & tools"
       ],
-      "upvotes": 161,
+      "upvotes": 162,
       "published_at": "2024-12-28T07:54:06.000Z",
       "hf_url": "https://huggingface.co/papers/2412.20138",
       "arxiv_url": "https://arxiv.org/abs/2412.20138",
@@ -282,7 +282,7 @@
       "summary_source": "abstract",
       "upvote_velocity": {
         "change": 1,
-        "per_day": 1.0
+        "per_day": 0.9
       }
     },
     {
@@ -377,8 +377,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -432,7 +432,7 @@
         "Vision & multimodal",
         "Generative models"
       ],
-      "upvotes": 122,
+      "upvotes": 123,
       "published_at": "2026-10-26T20:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2610.36729",
       "arxiv_url": "https://arxiv.org/abs/2610.36729",
@@ -460,36 +460,48 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 1,
+        "per_day": 0.9
       }
     },
     {
-      "id": "arxiv:2609.33439",
-      "arxiv_id": "2609.33439",
-      "title": "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
+      "id": "arxiv:2608.16157",
+      "arxiv_id": "2608.16157",
+      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
       "authors": [
-        "EverMind AI"
+        "Shuo Yang",
+        "Xiaoze Fan",
+        "Melissa Pan",
+        "Haocheng Xi",
+        "Zhe Wang",
+        "Shanlin Sun",
+        "Kurt Keutzer",
+        "Song Han",
+        "Matei Zaharia",
+        "Chenfeng Xu",
+        "Ion Stoica"
       ],
-      "abstract": "As large language models advance, AI agents are moving beyond isolated, domain-specific tasks toward long-horizon, cross-domain workflows. This transition exposes two challenges: increasing harness complexity makes manual design difficult to scale, while tighter coupling to specific domains limits the generality of a single harness. The central question thus shifts from how to engineer a stronger harness for one domain to how to autonomously construct specialized harnesses, improve them through experience, and orchestrate them across domains. We introduce Raven, The Harness of Harnesses, an open-source multi-agent ecosystem that automatically constructs and evolves modular harnesses for specific models and domains, treating each executable model--harness pair as a composable unit of intelligence. To support an All-Domain Collaboration Network, its Host Agent decomposes goals, matches subtasks to specialized agents, coordinates execution dependencies, and integrates results, while a host archive and EverOS preserve experience across tasks and Skill Forge makes that experience available as reusable procedures. Our theory establishes sufficient conditions for such composition to expand reliable task coverage beyond that of the available individual agents under a shared resource budget. On complex and long-horizon tasks, Raven significantly outperforms the state-of-the-art agent systems, pushing the frontier of composable agentic intelligence.",
+      "abstract": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
       "category": "AI research",
       "keywords": [
-        "Agents & tools"
+        "Agents & tools",
+        "Memory & long context"
       ],
-      "upvotes": 118,
-      "published_at": "2026-09-26T20:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2609.33439",
-      "arxiv_url": "https://arxiv.org/abs/2609.33439",
-      "pdf_url": "https://arxiv.org/pdf/2609.33439",
-      "discussion_url": "https://huggingface.co/papers/2609.33439",
+      "upvotes": 111,
+      "published_at": "2026-08-16T20:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2608.16157",
+      "arxiv_url": "https://arxiv.org/abs/2608.16157",
+      "pdf_url": "https://arxiv.org/pdf/2608.16157",
+      "discussion_url": "https://huggingface.co/papers/2608.16157",
       "tldr_20_words": "",
-      "summary_25_words": "As large language models advance, AI agents are moving beyond isolated, domain-specific tasks toward long-horizon, cross-domain workflows. This transition exposes two challenges: increasing harness complexity makes manual design difficult to scale, while tighter coupling to specific domains limits the generality of a single harness. The central question thus shifts from how to engineer a stronger harness for one domain to how to autonomously construct specialized harnesses, improve them through experience, and orchestrate them across domains. We introduce Raven, The Harness of Harnesses, an open-source multi-agent ecosystem that automatically constructs and evolves modular harnesses for specific models and domains, treating each executable model--harness pair as a composable unit of intelligence. To support an All-Domain Collaboration Network, its Host Agent decomposes goals, matches subtasks to specialized agents, coordinates execution dependencies, and integrates results, while a host archive and EverOS preserve experience across tasks and Skill Forge makes that experience available as reusable procedures. Our theory establishes sufficient conditions for such composition to expand reliable task coverage beyond that of the available individual agents under a shared resource budget. On complex and long-horizon tasks, Raven significantly outperforms the state-of-the-art agent systems, pushing the frontier of composable agentic intelligence.",
+      "summary_25_words": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
       "breakthrough": "",
       "example_architecture": "Not specified in the abstract.",
       "training_strategy": "Not specified in the abstract.",
       "dataset_curation": "Not specified in the abstract.",
       "tags": [
-        "Agents & tools"
+        "Agents & tools",
+        "Memory & long context"
       ],
       "reasoning": "Not specified in the abstract.",
       "state_space_fusion": "Not specified in the abstract.",
@@ -502,8 +514,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": -594,
-        "per_day": -149.2
+        "change": null,
+        "per_day": null
       }
     }
   ],
@@ -525,12 +537,12 @@
       "count": 2
     },
     {
-      "tag": "Reasoning",
+      "tag": "Memory & long context",
       "count": 2
     },
     {
-      "tag": "Memory & long context",
-      "count": 1
+      "tag": "Reasoning",
+      "count": 2
     }
   ],
   "observations": [
@@ -552,7 +564,7 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 164,
-      "observed_at": "2026-11-01T17:56:01+00:00"
+      "observed_at": "2026-11-02T21:42:39+00:00"
     },
     {
       "arxiv_id": "2610.34467",
@@ -567,12 +579,12 @@
     {
       "arxiv_id": "2509.22186",
       "upvotes": 181,
-      "observed_at": "2026-11-01T17:56:01+00:00"
+      "observed_at": "2026-11-02T21:42:39+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 176,
-      "observed_at": "2026-11-01T17:56:01+00:00"
+      "observed_at": "2026-11-02T21:42:39+00:00"
     },
     {
       "arxiv_id": "2506.01844",
@@ -581,13 +593,13 @@
     },
     {
       "arxiv_id": "2412.20138",
-      "upvotes": 161,
-      "observed_at": "2026-11-01T17:56:01+00:00"
+      "upvotes": 162,
+      "observed_at": "2026-11-02T21:42:39+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 156,
-      "observed_at": "2026-11-01T17:56:01+00:00"
+      "observed_at": "2026-11-02T21:42:39+00:00"
     },
     {
       "arxiv_id": "2610.39633",
@@ -597,12 +609,17 @@
     {
       "arxiv_id": "2605.31264",
       "upvotes": 130,
-      "observed_at": "2026-11-01T17:56:01+00:00"
+      "observed_at": "2026-11-02T21:42:39+00:00"
     },
     {
       "arxiv_id": "2610.36729",
-      "upvotes": 122,
-      "observed_at": "2026-11-01T17:56:01+00:00"
+      "upvotes": 123,
+      "observed_at": "2026-11-02T21:42:39+00:00"
+    },
+    {
+      "arxiv_id": "2608.16157",
+      "upvotes": 111,
+      "observed_at": "2026-11-02T21:42:39+00:00"
     }
   ]
 }
