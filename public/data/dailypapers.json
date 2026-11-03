@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-02T21:42:39+00:00",
+  "updated_at": "2026-11-03T19:29:52+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -161,6 +161,51 @@
       }
     },
     {
+      "id": "arxiv:2412.20138",
+      "arxiv_id": "2412.20138",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "authors": [
+        "Yijia Xiao",
+        "Edward Sun",
+        "Di Luo",
+        "Wei Wang"
+      ],
+      "abstract": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "category": "AI research",
+      "keywords": [
+        "Agents & tools"
+      ],
+      "upvotes": 161,
+      "published_at": "2024-12-28T07:54:06.000Z",
+      "hf_url": "https://huggingface.co/papers/2412.20138",
+      "arxiv_url": "https://arxiv.org/abs/2412.20138",
+      "pdf_url": "https://arxiv.org/pdf/2412.20138",
+      "discussion_url": "https://huggingface.co/papers/2412.20138",
+      "tldr_20_words": "",
+      "summary_25_words": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
+      "breakthrough": "",
+      "example_architecture": "Not specified in the abstract.",
+      "training_strategy": "Not specified in the abstract.",
+      "dataset_curation": "Not specified in the abstract.",
+      "tags": [
+        "Agents & tools"
+      ],
+      "reasoning": "Not specified in the abstract.",
+      "state_space_fusion": "Not specified in the abstract.",
+      "key_mechanism": "Not specified in the abstract.",
+      "evaluation": "Not specified in the abstract.",
+      "three_pillars": {
+        "core_breakthrough": "Not specified in the abstract.",
+        "methodological_novelty": "Not specified in the abstract.",
+        "empirical_validation": "Not specified in the abstract."
+      },
+      "summary_source": "abstract",
+      "upvote_velocity": {
+        "change": -1,
+        "per_day": -1.1
+      }
+    },
+    {
       "id": "arxiv:2609.33757",
       "arxiv_id": "2609.33757",
       "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
@@ -208,7 +253,7 @@
         "Generative models",
         "Reasoning"
       ],
-      "upvotes": 164,
+      "upvotes": 156,
       "published_at": "2026-09-26T20:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2609.33757",
       "arxiv_url": "https://arxiv.org/abs/2609.33757",
@@ -236,53 +281,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
-      }
-    },
-    {
-      "id": "arxiv:2412.20138",
-      "arxiv_id": "2412.20138",
-      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "authors": [
-        "Yijia Xiao",
-        "Edward Sun",
-        "Di Luo",
-        "Wei Wang"
-      ],
-      "abstract": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
-      "category": "AI research",
-      "keywords": [
-        "Agents & tools"
-      ],
-      "upvotes": 162,
-      "published_at": "2024-12-28T07:54:06.000Z",
-      "hf_url": "https://huggingface.co/papers/2412.20138",
-      "arxiv_url": "https://arxiv.org/abs/2412.20138",
-      "pdf_url": "https://arxiv.org/pdf/2412.20138",
-      "discussion_url": "https://huggingface.co/papers/2412.20138",
-      "tldr_20_words": "",
-      "summary_25_words": "Significant progress has been made in automated problem-solving using\nsocieties of agents powered by large language models (LLMs). In finance,\nefforts have largely focused on single-agent systems handling specific tasks or\nmulti-agent frameworks independently gathering data. However, the multi-agent\nsystems' potential to replicate real-world trading firms' collaborative\ndynamics remains underexplored. TradingAgents proposes a novel stock trading\nframework inspired by trading firms, featuring LLM-powered agents in\nspecialized roles such as fundamental analysts, sentiment analysts, technical\nanalysts, and traders with varied risk profiles. The framework includes Bull\nand Bear researcher agents assessing market conditions, a risk management team\nmonitoring exposure, and traders synthesizing insights from debates and\nhistorical data to make informed decisions. By simulating a dynamic,\ncollaborative trading environment, this framework aims to improve trading\nperformance. Detailed architecture and extensive experiments reveal its\nsuperiority over baseline models, with notable improvements in cumulative\nreturns, Sharpe ratio, and maximum drawdown, highlighting the potential of\nmulti-agent LLM frameworks in financial trading. TradingAgents is available at\nhttps://github.com/TauricResearch/TradingAgents.",
-      "breakthrough": "",
-      "example_architecture": "Not specified in the abstract.",
-      "training_strategy": "Not specified in the abstract.",
-      "dataset_curation": "Not specified in the abstract.",
-      "tags": [
-        "Agents & tools"
-      ],
-      "reasoning": "Not specified in the abstract.",
-      "state_space_fusion": "Not specified in the abstract.",
-      "key_mechanism": "Not specified in the abstract.",
-      "evaluation": "Not specified in the abstract.",
-      "three_pillars": {
-        "core_breakthrough": "Not specified in the abstract.",
-        "methodological_novelty": "Not specified in the abstract.",
-        "empirical_validation": "Not specified in the abstract."
-      },
-      "summary_source": "abstract",
-      "upvote_velocity": {
-        "change": 1,
-        "per_day": 0.9
+        "change": -8,
+        "per_day": -8.8
       }
     },
     {
@@ -432,7 +432,7 @@
         "Vision & multimodal",
         "Generative models"
       ],
-      "upvotes": 123,
+      "upvotes": 112,
       "published_at": "2026-10-26T20:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2610.36729",
       "arxiv_url": "https://arxiv.org/abs/2610.36729",
@@ -460,8 +460,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 1,
-        "per_day": 0.9
+        "change": -11,
+        "per_day": -12.1
       }
     },
     {
@@ -514,8 +514,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 0,
+        "per_day": 0.0
       }
     }
   ],
@@ -563,8 +563,8 @@
     },
     {
       "arxiv_id": "2609.33757",
-      "upvotes": 164,
-      "observed_at": "2026-11-02T21:42:39+00:00"
+      "upvotes": 156,
+      "observed_at": "2026-11-03T19:29:52+00:00"
     },
     {
       "arxiv_id": "2610.34467",
@@ -579,12 +579,12 @@
     {
       "arxiv_id": "2509.22186",
       "upvotes": 181,
-      "observed_at": "2026-11-02T21:42:39+00:00"
+      "observed_at": "2026-11-03T19:29:52+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 176,
-      "observed_at": "2026-11-02T21:42:39+00:00"
+      "observed_at": "2026-11-03T19:29:52+00:00"
     },
     {
       "arxiv_id": "2506.01844",
@@ -593,13 +593,13 @@
     },
     {
       "arxiv_id": "2412.20138",
-      "upvotes": 162,
-      "observed_at": "2026-11-02T21:42:39+00:00"
+      "upvotes": 161,
+      "observed_at": "2026-11-03T19:29:52+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 156,
-      "observed_at": "2026-11-02T21:42:39+00:00"
+      "observed_at": "2026-11-03T19:29:52+00:00"
     },
     {
       "arxiv_id": "2610.39633",
@@ -609,17 +609,17 @@
     {
       "arxiv_id": "2605.31264",
       "upvotes": 130,
-      "observed_at": "2026-11-02T21:42:39+00:00"
+      "observed_at": "2026-11-03T19:29:52+00:00"
     },
     {
       "arxiv_id": "2610.36729",
-      "upvotes": 123,
-      "observed_at": "2026-11-02T21:42:39+00:00"
+      "upvotes": 112,
+      "observed_at": "2026-11-03T19:29:52+00:00"
     },
     {
       "arxiv_id": "2608.16157",
       "upvotes": 111,
-      "observed_at": "2026-11-02T21:42:39+00:00"
+      "observed_at": "2026-11-03T19:29:52+00:00"
     }
   ]
 }
