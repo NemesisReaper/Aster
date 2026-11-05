@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-04T19:45:12+00:00",
+  "updated_at": "2026-11-05T19:57:01+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -56,8 +56,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -231,7 +231,7 @@
       "keywords": [
         "Agents & tools"
       ],
-      "upvotes": 161,
+      "upvotes": 162,
       "published_at": "2024-12-28T07:54:06.000Z",
       "hf_url": "https://huggingface.co/papers/2412.20138",
       "arxiv_url": "https://arxiv.org/abs/2412.20138",
@@ -257,8 +257,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": 1,
+        "per_day": 1.0
       }
     },
     {
@@ -460,7 +460,7 @@
         "Vision & multimodal",
         "Generative models"
       ],
-      "upvotes": 121,
+      "upvotes": 124,
       "published_at": "2026-10-30T20:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2611.00859",
       "arxiv_url": "https://arxiv.org/abs/2611.00859",
@@ -488,8 +488,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 3,
+        "per_day": 3.0
       }
     }
   ],
@@ -542,12 +542,7 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-04T19:45:12+00:00"
-    },
-    {
-      "arxiv_id": "2610.34467",
-      "upvotes": 202,
-      "observed_at": "2026-10-28T18:21:23+00:00"
+      "observed_at": "2026-11-05T19:57:01+00:00"
     },
     {
       "arxiv_id": "2610.26825",
@@ -557,12 +552,12 @@
     {
       "arxiv_id": "2509.22186",
       "upvotes": 181,
-      "observed_at": "2026-11-04T19:45:12+00:00"
+      "observed_at": "2026-11-05T19:57:01+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 176,
-      "observed_at": "2026-11-04T19:45:12+00:00"
+      "observed_at": "2026-11-05T19:57:01+00:00"
     },
     {
       "arxiv_id": "2506.01844",
@@ -571,13 +566,13 @@
     },
     {
       "arxiv_id": "2412.20138",
-      "upvotes": 161,
-      "observed_at": "2026-11-04T19:45:12+00:00"
+      "upvotes": 162,
+      "observed_at": "2026-11-05T19:57:01+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 156,
-      "observed_at": "2026-11-04T19:45:12+00:00"
+      "observed_at": "2026-11-05T19:57:01+00:00"
     },
     {
       "arxiv_id": "2610.39633",
@@ -587,7 +582,7 @@
     {
       "arxiv_id": "2605.31264",
       "upvotes": 130,
-      "observed_at": "2026-11-04T19:45:12+00:00"
+      "observed_at": "2026-11-05T19:57:01+00:00"
     },
     {
       "arxiv_id": "2610.36729",
@@ -602,12 +597,12 @@
     {
       "arxiv_id": "2508.19205",
       "upvotes": 182,
-      "observed_at": "2026-11-04T19:45:12+00:00"
+      "observed_at": "2026-11-05T19:57:01+00:00"
     },
     {
       "arxiv_id": "2611.00859",
-      "upvotes": 121,
-      "observed_at": "2026-11-04T19:45:12+00:00"
+      "upvotes": 124,
+      "observed_at": "2026-11-05T19:57:01+00:00"
     }
   ]
 }
