@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-05T19:57:01+00:00",
+  "updated_at": "2026-11-06T19:24:28+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -29,7 +29,7 @@
         "Memory & long context",
         "Generative models"
       ],
-      "upvotes": 182,
+      "upvotes": 183,
       "published_at": "2025-08-26T13:09:12.000Z",
       "hf_url": "https://huggingface.co/papers/2508.19205",
       "arxiv_url": "https://arxiv.org/abs/2508.19205",
@@ -56,8 +56,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": 1,
+        "per_day": 1.0
       }
     },
     {
@@ -257,8 +257,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 1,
-        "per_day": 1.0
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -390,6 +390,109 @@
       }
     },
     {
+      "id": "arxiv:2610.22471",
+      "arxiv_id": "2610.22471",
+      "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+      "authors": [
+        "SenseNova",
+        "Joint Research Team",
+        "Zhongang Cai",
+        "Ziang Cao",
+        "Tailai Chen",
+        "Han Chong Chua",
+        "Linjun Dai",
+        "Hanming Deng",
+        "Hokin Deng",
+        "Haiwen Diao",
+        "Chenjing Ding",
+        "Weichen Fan",
+        "Xiao Fu",
+        "Zerui Gong",
+        "Chenyang Gu",
+        "Zexin He",
+        "Zhi Hou",
+        "Bo Li",
+        "Qinyue Li",
+        "Quanzhou Li",
+        "Xiaowan Li",
+        "Zhichao Liao",
+        "Dahua Lin",
+        "Zilong Lin",
+        "Bo Liu",
+        "Chunxiao Liu",
+        "Pengfei Liu",
+        "Tianqi Liu",
+        "Ziwei Liu",
+        "Chen Change Loy",
+        "Lewei Lu",
+        "Jiapeng Luo",
+        "Yuexiao Ma",
+        "Liang Pan",
+        "Xingang Pan",
+        "Oscar Qian",
+        "Ziyi Shang",
+        "Yuyao Shao",
+        "Dawei Su",
+        "Dacheng Tao",
+        "Qingyi Tao",
+        "Quan Wang",
+        "Ruisi Wang",
+        "Xiaogang Wang",
+        "Ziyi Wang",
+        "Beichen Wen",
+        "Donghao Wu",
+        "Jiaxu Wu",
+        "Silei Wu",
+        "Xiaoming Wu",
+        "Zhonghua Wu",
+        "Hongcan Xiao",
+        "Weiye Xu",
+        "Atsushi Yamashita",
+        "Lei Yang",
+        "Zhe Yang",
+        "Baiqiao Yin",
+        "Wanqi Yin",
+        "Hanfei Zhao",
+        "Tianbo Zhong",
+        "Long Zhuo",
+        "Jing Zuo"
+      ],
+      "abstract": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative benchmarks spanning tabletop manipulation, humanoids, mobile platforms, and dexterous hands. Under a unified protocol that allows in-context learning (ICL) from training-set demonstrations and substantially increases the number of execution steps, GPT-6-Astra achieves unprecedented performance (Fig. 1). Future research may focus on improving 1) the generality of ICL 2) cost and execution time, 3) physical-state verification, 4) recovery from irreversible failures, and 5) long-horizon preservation of progress. Second, we study the agentic harness for embodied control. We identify that close-loop coordination between a high-level \"System 2\" reasoner (i.e., GPT-6-Astra) and a low-level \"System 1\" controller (e.g., π0.5) is costly but effective. Third, we examine GPT-6-Astra on real-world deployment. Our experiments on 8 robot configurations reveal substantial gaps: 1) robot demonstrations required for ICL are expensive to collect, and 2) it is implausible to trade longer execution for higher success rates with physical constraints. Fourth, we envision the next generation of embodied benchmarks. We develop a prototype that 1) derives tasks from real-world needs, 2) provides no in-domain demonstrations, and 3) judges agents on a world clock that keeps running while they deliberate. Taken together, our results suggest that GPT-6-Astra has largely crossed the threshold of embodied competence, but not yet that of practical embodied intelligence.",
+      "category": "AI research",
+      "keywords": [
+        "Evaluation"
+      ],
+      "upvotes": 135,
+      "published_at": "2026-10-14T20:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2610.22471",
+      "arxiv_url": "https://arxiv.org/abs/2610.22471",
+      "pdf_url": "https://arxiv.org/pdf/2610.22471",
+      "discussion_url": "https://huggingface.co/papers/2610.22471",
+      "tldr_20_words": "",
+      "summary_25_words": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative benchmarks spanning tabletop manipulation, humanoids, mobile platforms, and dexterous hands. Under a unified protocol that allows in-context learning (ICL) from training-set demonstrations and substantially increases the number of execution steps, GPT-6-Astra achieves unprecedented performance (Fig. 1). Future research may focus on improving 1) the generality of ICL 2) cost and execution time, 3) physical-state verification, 4) recovery from irreversible failures, and 5) long-horizon preservation of progress. Second, we study the agentic harness for embodied control. We identify that close-loop coordination between a high-level \"System 2\" reasoner (i.e., GPT-6-Astra) and a low-level \"System 1\" controller (e.g., π0.5) is costly but effective. Third, we examine GPT-6-Astra on real-world deployment. Our experiments on 8 robot configurations reveal substantial gaps: 1) robot demonstrations required for ICL are expensive to collect, and 2) it is implausible to trade longer execution for higher success rates with physical constraints. Fourth, we envision the next generation of embodied benchmarks. We develop a prototype that 1) derives tasks from real-world needs, 2) provides no in-domain demonstrations, and 3) judges agents on a world clock that keeps running while they deliberate. Taken together, our results suggest that GPT-6-Astra has largely crossed the threshold of embodied competence, but not yet that of practical embodied intelligence.",
+      "breakthrough": "",
+      "example_architecture": "Not specified in the abstract.",
+      "training_strategy": "Not specified in the abstract.",
+      "dataset_curation": "Not specified in the abstract.",
+      "tags": [
+        "Evaluation"
+      ],
+      "reasoning": "Not specified in the abstract.",
+      "state_space_fusion": "Not specified in the abstract.",
+      "key_mechanism": "Not specified in the abstract.",
+      "evaluation": "Not specified in the abstract.",
+      "three_pillars": {
+        "core_breakthrough": "Not specified in the abstract.",
+        "methodological_novelty": "Not specified in the abstract.",
+        "empirical_validation": "Not specified in the abstract."
+      },
+      "summary_source": "abstract",
+      "upvote_velocity": {
+        "change": null,
+        "per_day": null
+      }
+    },
+    {
       "id": "arxiv:2605.31264",
       "arxiv_id": "2605.31264",
       "title": "COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Knowledge Distillation",
@@ -436,75 +539,24 @@
         "change": 0,
         "per_day": 0.0
       }
-    },
-    {
-      "id": "arxiv:2611.00859",
-      "arxiv_id": "2611.00859",
-      "title": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
-      "authors": [
-        "Yijie Jin",
-        "Yuxuan Liu",
-        "Jiajun Xu",
-        "Ye Huang",
-        "Chuzhi Wang",
-        "Jiayang Li",
-        "Ruiyang Chen",
-        "Chenling Hong",
-        "Xu Wang",
-        "Zhijie Deng"
-      ],
-      "abstract": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF), which co-designs generation, training, and execution for continuous video output with multi-step denoising. WF uses chunk-wise causal attention to access earlier, cleaner chunks before their denoising is complete, and distributes staggered denoising and cache-refresh stages across full-model replicas to achieve 1F1C: one output chunk per concurrent forward round after pipeline fill. To adapt the model to this continuous generation process, we develop a three-stage training procedure that successively introduces mixed-noise denoising, motion supervision, and causal adaptation using self-generated history. To execute this process efficiently, Wave Runtime (WaveRT) uses Wave Parallelism (WP) for early K/V delivery and communication-computation overlap, together with optimized kernels and pipelined VAE decoding. Experiments on Wan2.1-T2V-1.3B show that 5-step WF maintains overall quality comparable to Rolling Forcing while achieving higher Dynamic Degree on both short and long videos. Our system efficiency experiments show that 4-step WF achieves 147.6 DiT FPS and 134.8 end-to-end FPS on eight H200 GPUs, yielding 7.07x the single-GPU end-to-end throughput. In DiT-only tests with matched SageAttention+W8A8 backends, denoising steps, and GPU counts, WP delivers up to 2.53x the throughput of the faster of the Ulysses and Ring context-parallel baselines across six model scales (1.3B-14B).",
-      "category": "AI research",
-      "keywords": [
-        "Efficiency",
-        "Vision & multimodal",
-        "Generative models"
-      ],
-      "upvotes": 124,
-      "published_at": "2026-10-30T20:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2611.00859",
-      "arxiv_url": "https://arxiv.org/abs/2611.00859",
-      "pdf_url": "https://arxiv.org/pdf/2611.00859",
-      "discussion_url": "https://huggingface.co/papers/2611.00859",
-      "tldr_20_words": "",
-      "summary_25_words": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF), which co-designs generation, training, and execution for continuous video output with multi-step denoising. WF uses chunk-wise causal attention to access earlier, cleaner chunks before their denoising is complete, and distributes staggered denoising and cache-refresh stages across full-model replicas to achieve 1F1C: one output chunk per concurrent forward round after pipeline fill. To adapt the model to this continuous generation process, we develop a three-stage training procedure that successively introduces mixed-noise denoising, motion supervision, and causal adaptation using self-generated history. To execute this process efficiently, Wave Runtime (WaveRT) uses Wave Parallelism (WP) for early K/V delivery and communication-computation overlap, together with optimized kernels and pipelined VAE decoding. Experiments on Wan2.1-T2V-1.3B show that 5-step WF maintains overall quality comparable to Rolling Forcing while achieving higher Dynamic Degree on both short and long videos. Our system efficiency experiments show that 4-step WF achieves 147.6 DiT FPS and 134.8 end-to-end FPS on eight H200 GPUs, yielding 7.07x the single-GPU end-to-end throughput. In DiT-only tests with matched SageAttention+W8A8 backends, denoising steps, and GPU counts, WP delivers up to 2.53x the throughput of the faster of the Ulysses and Ring context-parallel baselines across six model scales (1.3B-14B).",
-      "breakthrough": "",
-      "example_architecture": "Not specified in the abstract.",
-      "training_strategy": "Not specified in the abstract.",
-      "dataset_curation": "Not specified in the abstract.",
-      "tags": [
-        "Efficiency",
-        "Vision & multimodal",
-        "Generative models"
-      ],
-      "reasoning": "Not specified in the abstract.",
-      "state_space_fusion": "Not specified in the abstract.",
-      "key_mechanism": "Not specified in the abstract.",
-      "evaluation": "Not specified in the abstract.",
-      "three_pillars": {
-        "core_breakthrough": "Not specified in the abstract.",
-        "methodological_novelty": "Not specified in the abstract.",
-        "empirical_validation": "Not specified in the abstract."
-      },
-      "summary_source": "abstract",
-      "upvote_velocity": {
-        "change": 3,
-        "per_day": 3.0
-      }
     }
   ],
   "trending_topics": [
-    {
-      "tag": "Vision & multimodal",
-      "count": 4
-    },
     {
       "tag": "Agents & tools",
       "count": 3
     },
     {
-      "tag": "Generative models",
+      "tag": "Vision & multimodal",
       "count": 3
+    },
+    {
+      "tag": "Evaluation",
+      "count": 2
+    },
+    {
+      "tag": "Generative models",
+      "count": 2
     },
     {
       "tag": "Memory & long context",
@@ -513,14 +565,6 @@
     {
       "tag": "Reasoning",
       "count": 2
-    },
-    {
-      "tag": "Efficiency",
-      "count": 1
-    },
-    {
-      "tag": "Evaluation",
-      "count": 1
     }
   ],
   "observations": [
@@ -542,22 +586,17 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-05T19:57:01+00:00"
-    },
-    {
-      "arxiv_id": "2610.26825",
-      "upvotes": 183,
-      "observed_at": "2026-10-29T18:28:40+00:00"
+      "observed_at": "2026-11-06T19:24:28+00:00"
     },
     {
       "arxiv_id": "2509.22186",
       "upvotes": 181,
-      "observed_at": "2026-11-05T19:57:01+00:00"
+      "observed_at": "2026-11-06T19:24:28+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 176,
-      "observed_at": "2026-11-05T19:57:01+00:00"
+      "observed_at": "2026-11-06T19:24:28+00:00"
     },
     {
       "arxiv_id": "2506.01844",
@@ -567,12 +606,12 @@
     {
       "arxiv_id": "2412.20138",
       "upvotes": 162,
-      "observed_at": "2026-11-05T19:57:01+00:00"
+      "observed_at": "2026-11-06T19:24:28+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 156,
-      "observed_at": "2026-11-05T19:57:01+00:00"
+      "observed_at": "2026-11-06T19:24:28+00:00"
     },
     {
       "arxiv_id": "2610.39633",
@@ -582,7 +621,7 @@
     {
       "arxiv_id": "2605.31264",
       "upvotes": 130,
-      "observed_at": "2026-11-05T19:57:01+00:00"
+      "observed_at": "2026-11-06T19:24:28+00:00"
     },
     {
       "arxiv_id": "2610.36729",
@@ -596,13 +635,18 @@
     },
     {
       "arxiv_id": "2508.19205",
-      "upvotes": 182,
-      "observed_at": "2026-11-05T19:57:01+00:00"
+      "upvotes": 183,
+      "observed_at": "2026-11-06T19:24:28+00:00"
     },
     {
       "arxiv_id": "2611.00859",
       "upvotes": 124,
       "observed_at": "2026-11-05T19:57:01+00:00"
+    },
+    {
+      "arxiv_id": "2610.22471",
+      "upvotes": 135,
+      "observed_at": "2026-11-06T19:24:28+00:00"
     }
   ]
 }
