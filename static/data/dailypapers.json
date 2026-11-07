@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-06T19:24:28+00:00",
+  "updated_at": "2026-11-07T17:44:48+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -29,7 +29,7 @@
         "Memory & long context",
         "Generative models"
       ],
-      "upvotes": 183,
+      "upvotes": 184,
       "published_at": "2025-08-26T13:09:12.000Z",
       "hf_url": "https://huggingface.co/papers/2508.19205",
       "arxiv_url": "https://arxiv.org/abs/2508.19205",
@@ -57,7 +57,7 @@
       "summary_source": "abstract",
       "upvote_velocity": {
         "change": 1,
-        "per_day": 1.0
+        "per_day": 1.1
       }
     },
     {
@@ -488,8 +488,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -586,17 +586,17 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-06T19:24:28+00:00"
+      "observed_at": "2026-11-07T17:44:48+00:00"
     },
     {
       "arxiv_id": "2509.22186",
       "upvotes": 181,
-      "observed_at": "2026-11-06T19:24:28+00:00"
+      "observed_at": "2026-11-07T17:44:48+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 176,
-      "observed_at": "2026-11-06T19:24:28+00:00"
+      "observed_at": "2026-11-07T17:44:48+00:00"
     },
     {
       "arxiv_id": "2506.01844",
@@ -606,12 +606,12 @@
     {
       "arxiv_id": "2412.20138",
       "upvotes": 162,
-      "observed_at": "2026-11-06T19:24:28+00:00"
+      "observed_at": "2026-11-07T17:44:48+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 156,
-      "observed_at": "2026-11-06T19:24:28+00:00"
+      "observed_at": "2026-11-07T17:44:48+00:00"
     },
     {
       "arxiv_id": "2610.39633",
@@ -621,7 +621,7 @@
     {
       "arxiv_id": "2605.31264",
       "upvotes": 130,
-      "observed_at": "2026-11-06T19:24:28+00:00"
+      "observed_at": "2026-11-07T17:44:48+00:00"
     },
     {
       "arxiv_id": "2610.36729",
@@ -635,8 +635,8 @@
     },
     {
       "arxiv_id": "2508.19205",
-      "upvotes": 183,
-      "observed_at": "2026-11-06T19:24:28+00:00"
+      "upvotes": 184,
+      "observed_at": "2026-11-07T17:44:48+00:00"
     },
     {
       "arxiv_id": "2611.00859",
@@ -646,7 +646,7 @@
     {
       "arxiv_id": "2610.22471",
       "upvotes": 135,
-      "observed_at": "2026-11-06T19:24:28+00:00"
+      "observed_at": "2026-11-07T17:44:48+00:00"
     }
   ]
 }
