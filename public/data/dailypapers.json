@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-08T17:55:41+00:00",
+  "updated_at": "2026-11-09T22:21:45+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -66,8 +66,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -323,8 +323,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 1,
-        "per_day": 1.0
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -591,34 +591,29 @@
   ],
   "observations": [
     {
-      "arxiv_id": "2609.33439",
-      "upvotes": 118,
-      "observed_at": "2026-11-01T17:56:01+00:00"
-    },
-    {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-08T17:55:41+00:00"
+      "observed_at": "2026-11-09T22:21:45+00:00"
     },
     {
       "arxiv_id": "2509.22186",
       "upvotes": 181,
-      "observed_at": "2026-11-08T17:55:41+00:00"
+      "observed_at": "2026-11-09T22:21:45+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 176,
-      "observed_at": "2026-11-08T17:55:41+00:00"
+      "observed_at": "2026-11-09T22:21:45+00:00"
     },
     {
       "arxiv_id": "2412.20138",
       "upvotes": 163,
-      "observed_at": "2026-11-08T17:55:41+00:00"
+      "observed_at": "2026-11-09T22:21:45+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 156,
-      "observed_at": "2026-11-08T17:55:41+00:00"
+      "observed_at": "2026-11-09T22:21:45+00:00"
     },
     {
       "arxiv_id": "2605.31264",
@@ -638,7 +633,7 @@
     {
       "arxiv_id": "2508.19205",
       "upvotes": 184,
-      "observed_at": "2026-11-08T17:55:41+00:00"
+      "observed_at": "2026-11-09T22:21:45+00:00"
     },
     {
       "arxiv_id": "2611.00859",
@@ -648,12 +643,12 @@
     {
       "arxiv_id": "2610.22471",
       "upvotes": 135,
-      "observed_at": "2026-11-08T17:55:41+00:00"
+      "observed_at": "2026-11-09T22:21:45+00:00"
     },
     {
       "arxiv_id": "2603.26164",
       "upvotes": 248,
-      "observed_at": "2026-11-08T17:55:41+00:00"
+      "observed_at": "2026-11-09T22:21:45+00:00"
     }
   ]
 }
