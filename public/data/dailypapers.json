@@ -1,75 +1,9 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-09T22:21:45+00:00",
+  "updated_at": "2026-11-10T19:43:39+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
-    {
-      "id": "arxiv:2603.26164",
-      "arxiv_id": "2603.26164",
-      "title": "DataFlex: A Unified Framework for Data-Centric Dynamic Training of Large Language Models",
-      "authors": [
-        "Hao Liang",
-        "Zhengyang Zhao",
-        "Meiyi Qiang",
-        "Mingrui Chen",
-        "Lu Ma",
-        "Rongyi Yu",
-        "Hengyi Feng",
-        "Shixuan Sun",
-        "Zimo Meng",
-        "Xiaochen Ma",
-        "Xuanlin Yang",
-        "Qifeng Cai",
-        "Ruichuan An",
-        "Bohan Zeng",
-        "Zhen Hao Wong",
-        "Chengyu Shen",
-        "Runming He",
-        "Zhaoyang Han",
-        "Yaowei Zheng",
-        "Fangcheng Fu",
-        "Conghui He",
-        "Bin Cui",
-        "Zhiyu Li",
-        "Weinan E",
-        "Wentao Zhang"
-      ],
-      "abstract": "Data-centric training has emerged as a promising direction for improving large language models (LLMs) by optimizing not only model parameters but also the selection, composition, and weighting of training data during optimization. However, existing approaches to data selection, data mixture optimization, and data reweighting are often developed in isolated codebases with inconsistent interfaces, hindering reproducibility, fair comparison, and practical integration. In this paper, we present DataFlex, a unified data-centric dynamic training framework built upon LLaMA-Factory. DataFlex supports three major paradigms of dynamic data optimization: sample selection, domain mixture adjustment, and sample reweighting, while remaining fully compatible with the original training workflow. It provides extensible trainer abstractions and modular components, enabling a drop-in replacement for standard LLM training, and unifies key model-dependent operations such as embedding extraction, inference, and gradient computation, with support for large-scale settings including DeepSpeed ZeRO-3. We conduct comprehensive experiments across multiple data-centric methods. Dynamic data selection consistently outperforms static full-data training on MMLU across both Mistral-7B and Llama-3.2-3B. For data mixture, DoReMi and ODM improve both MMLU accuracy and corpus-level perplexity over default proportions when pretraining Qwen2.5-1.5B on SlimPajama at 6B and 30B token scales. DataFlex also achieves consistent runtime improvements over original implementations. These results demonstrate that DataFlex provides an effective, efficient, and reproducible infrastructure for data-centric dynamic training of LLMs.",
-      "category": "AI research",
-      "keywords": [
-        "AI research"
-      ],
-      "upvotes": 248,
-      "published_at": "2026-03-27T04:28:02.000Z",
-      "hf_url": "https://huggingface.co/papers/2603.26164",
-      "arxiv_url": "https://arxiv.org/abs/2603.26164",
-      "pdf_url": "https://arxiv.org/pdf/2603.26164",
-      "discussion_url": "https://huggingface.co/papers/2603.26164",
-      "tldr_20_words": "",
-      "summary_25_words": "Data-centric training has emerged as a promising direction for improving large language models (LLMs) by optimizing not only model parameters but also the selection, composition, and weighting of training data during optimization. However, existing approaches to data selection, data mixture optimization, and data reweighting are often developed in isolated codebases with inconsistent interfaces, hindering reproducibility, fair comparison, and practical integration. In this paper, we present DataFlex, a unified data-centric dynamic training framework built upon LLaMA-Factory. DataFlex supports three major paradigms of dynamic data optimization: sample selection, domain mixture adjustment, and sample reweighting, while remaining fully compatible with the original training workflow. It provides extensible trainer abstractions and modular components, enabling a drop-in replacement for standard LLM training, and unifies key model-dependent operations such as embedding extraction, inference, and gradient computation, with support for large-scale settings including DeepSpeed ZeRO-3. We conduct comprehensive experiments across multiple data-centric methods. Dynamic data selection consistently outperforms static full-data training on MMLU across both Mistral-7B and Llama-3.2-3B. For data mixture, DoReMi and ODM improve both MMLU accuracy and corpus-level perplexity over default proportions when pretraining Qwen2.5-1.5B on SlimPajama at 6B and 30B token scales. DataFlex also achieves consistent runtime improvements over original implementations. These results demonstrate that DataFlex provides an effective, efficient, and reproducible infrastructure for data-centric dynamic training of LLMs.",
-      "breakthrough": "",
-      "example_architecture": "Not specified in the abstract.",
-      "training_strategy": "Not specified in the abstract.",
-      "dataset_curation": "Not specified in the abstract.",
-      "tags": [
-        "AI research"
-      ],
-      "reasoning": "Not specified in the abstract.",
-      "state_space_fusion": "Not specified in the abstract.",
-      "key_mechanism": "Not specified in the abstract.",
-      "evaluation": "Not specified in the abstract.",
-      "three_pillars": {
-        "core_breakthrough": "Not specified in the abstract.",
-        "methodological_novelty": "Not specified in the abstract.",
-        "empirical_validation": "Not specified in the abstract."
-      },
-      "summary_source": "abstract",
-      "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
-      }
-    },
     {
       "id": "arxiv:2508.19205",
       "arxiv_id": "2508.19205",
@@ -95,7 +29,7 @@
         "Memory & long context",
         "Generative models"
       ],
-      "upvotes": 184,
+      "upvotes": 186,
       "published_at": "2025-08-26T13:09:12.000Z",
       "hf_url": "https://huggingface.co/papers/2508.19205",
       "arxiv_url": "https://arxiv.org/abs/2508.19205",
@@ -122,8 +56,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": 2,
+        "per_day": 2.2
       }
     },
     {
@@ -297,7 +231,7 @@
       "keywords": [
         "Agents & tools"
       ],
-      "upvotes": 163,
+      "upvotes": 164,
       "published_at": "2024-12-28T07:54:06.000Z",
       "hf_url": "https://huggingface.co/papers/2412.20138",
       "arxiv_url": "https://arxiv.org/abs/2412.20138",
@@ -323,8 +257,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": 1,
+        "per_day": 1.1
       }
     },
     {
@@ -557,16 +491,64 @@
         "change": 0,
         "per_day": 0.0
       }
+    },
+    {
+      "id": "arxiv:2605.31264",
+      "arxiv_id": "2605.31264",
+      "title": "COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Knowledge Distillation",
+      "authors": [
+        "Tianyi Zhou",
+        "Dongrui Liu",
+        "Leitao Yuan",
+        "Jing Shao",
+        "Xia Hu"
+      ],
+      "abstract": "LLM agents are increasingly expected not only to complete isolated tasks, but also to carry bounded representations of human expertise, judgment, and interaction style. Building such person-grounded agents remains difficult because actionable knowledge associated with a person or role is usually embedded in heterogeneous traces rather than written as clean instructions. Existing memory and persona systems capture fragments of this evidence, while skill frameworks provide portable packaging formats; however, there is no end-to-end workflow for distilling these traces into inspectable, correctable, and agent-usable skills. We present an automated trace-to-skill distillation system for generating person-grounded AI skills via expert knowledge distillation. Given materials from a target person or role, COLLEAGUE.SKILL produces a versioned skill package with two coordinated tracks: a capability track for practices, mental models, and decision heuristics, and a bounded behavior track for communication style, interaction rules, and correction history. The package can be inspected, invoked, updated through natural-language feedback, rolled back, installed across agent hosts, and optionally prepared for controlled distribution. We describe the artifact contract, generation workflow, correction lifecycle, deployment surface, and domain presets implemented in the open-source system. At the time of writing, the public repository has approximately 18.5k GitHub stars; the gallery lists 215 skills from 165 contributors and more than 100k cumulative stars across listed skill cards. The system illustrates how person-grounded skills can be represented as portable, correctable packages rather than opaque prompts or hidden memories.",
+      "category": "AI research",
+      "keywords": [
+        "Agents & tools",
+        "Memory & long context"
+      ],
+      "upvotes": 130,
+      "published_at": "2026-05-28T20:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2605.31264",
+      "arxiv_url": "https://arxiv.org/abs/2605.31264",
+      "pdf_url": "https://arxiv.org/pdf/2605.31264",
+      "discussion_url": "https://huggingface.co/papers/2605.31264",
+      "tldr_20_words": "",
+      "summary_25_words": "LLM agents are increasingly expected not only to complete isolated tasks, but also to carry bounded representations of human expertise, judgment, and interaction style. Building such person-grounded agents remains difficult because actionable knowledge associated with a person or role is usually embedded in heterogeneous traces rather than written as clean instructions. Existing memory and persona systems capture fragments of this evidence, while skill frameworks provide portable packaging formats; however, there is no end-to-end workflow for distilling these traces into inspectable, correctable, and agent-usable skills. We present an automated trace-to-skill distillation system for generating person-grounded AI skills via expert knowledge distillation. Given materials from a target person or role, COLLEAGUE.SKILL produces a versioned skill package with two coordinated tracks: a capability track for practices, mental models, and decision heuristics, and a bounded behavior track for communication style, interaction rules, and correction history. The package can be inspected, invoked, updated through natural-language feedback, rolled back, installed across agent hosts, and optionally prepared for controlled distribution. We describe the artifact contract, generation workflow, correction lifecycle, deployment surface, and domain presets implemented in the open-source system. At the time of writing, the public repository has approximately 18.5k GitHub stars; the gallery lists 215 skills from 165 contributors and more than 100k cumulative stars across listed skill cards. The system illustrates how person-grounded skills can be represented as portable, correctable packages rather than opaque prompts or hidden memories.",
+      "breakthrough": "",
+      "example_architecture": "Not specified in the abstract.",
+      "training_strategy": "Not specified in the abstract.",
+      "dataset_curation": "Not specified in the abstract.",
+      "tags": [
+        "Agents & tools",
+        "Memory & long context"
+      ],
+      "reasoning": "Not specified in the abstract.",
+      "state_space_fusion": "Not specified in the abstract.",
+      "key_mechanism": "Not specified in the abstract.",
+      "evaluation": "Not specified in the abstract.",
+      "three_pillars": {
+        "core_breakthrough": "Not specified in the abstract.",
+        "methodological_novelty": "Not specified in the abstract.",
+        "empirical_validation": "Not specified in the abstract."
+      },
+      "summary_source": "abstract",
+      "upvote_velocity": {
+        "change": 0,
+        "per_day": 0.0
+      }
     }
   ],
   "trending_topics": [
     {
-      "tag": "Vision & multimodal",
+      "tag": "Agents & tools",
       "count": 3
     },
     {
-      "tag": "Agents & tools",
-      "count": 2
+      "tag": "Vision & multimodal",
+      "count": 3
     },
     {
       "tag": "Evaluation",
@@ -577,48 +559,44 @@
       "count": 2
     },
     {
-      "tag": "Reasoning",
+      "tag": "Memory & long context",
       "count": 2
     },
     {
-      "tag": "AI research",
-      "count": 1
-    },
-    {
-      "tag": "Memory & long context",
-      "count": 1
+      "tag": "Reasoning",
+      "count": 2
     }
   ],
   "observations": [
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-09T22:21:45+00:00"
+      "observed_at": "2026-11-10T19:43:39+00:00"
     },
     {
       "arxiv_id": "2509.22186",
       "upvotes": 181,
-      "observed_at": "2026-11-09T22:21:45+00:00"
+      "observed_at": "2026-11-10T19:43:39+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 176,
-      "observed_at": "2026-11-09T22:21:45+00:00"
+      "observed_at": "2026-11-10T19:43:39+00:00"
     },
     {
       "arxiv_id": "2412.20138",
-      "upvotes": 163,
-      "observed_at": "2026-11-09T22:21:45+00:00"
+      "upvotes": 164,
+      "observed_at": "2026-11-10T19:43:39+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 156,
-      "observed_at": "2026-11-09T22:21:45+00:00"
+      "observed_at": "2026-11-10T19:43:39+00:00"
     },
     {
       "arxiv_id": "2605.31264",
       "upvotes": 130,
-      "observed_at": "2026-11-07T17:44:48+00:00"
+      "observed_at": "2026-11-10T19:43:39+00:00"
     },
     {
       "arxiv_id": "2610.36729",
@@ -632,8 +610,8 @@
     },
     {
       "arxiv_id": "2508.19205",
-      "upvotes": 184,
-      "observed_at": "2026-11-09T22:21:45+00:00"
+      "upvotes": 186,
+      "observed_at": "2026-11-10T19:43:39+00:00"
     },
     {
       "arxiv_id": "2611.00859",
@@ -643,7 +621,7 @@
     {
       "arxiv_id": "2610.22471",
       "upvotes": 135,
-      "observed_at": "2026-11-09T22:21:45+00:00"
+      "observed_at": "2026-11-10T19:43:39+00:00"
     },
     {
       "arxiv_id": "2603.26164",
