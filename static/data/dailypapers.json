@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-10T19:43:39+00:00",
+  "updated_at": "2026-11-11T19:35:46+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -56,8 +56,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 2,
-        "per_day": 2.2
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -257,8 +257,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 1,
-        "per_day": 1.1
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -571,47 +571,37 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-10T19:43:39+00:00"
+      "observed_at": "2026-11-11T19:35:46+00:00"
     },
     {
       "arxiv_id": "2509.22186",
       "upvotes": 181,
-      "observed_at": "2026-11-10T19:43:39+00:00"
+      "observed_at": "2026-11-11T19:35:46+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 176,
-      "observed_at": "2026-11-10T19:43:39+00:00"
+      "observed_at": "2026-11-11T19:35:46+00:00"
     },
     {
       "arxiv_id": "2412.20138",
       "upvotes": 164,
-      "observed_at": "2026-11-10T19:43:39+00:00"
+      "observed_at": "2026-11-11T19:35:46+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 156,
-      "observed_at": "2026-11-10T19:43:39+00:00"
+      "observed_at": "2026-11-11T19:35:46+00:00"
     },
     {
       "arxiv_id": "2605.31264",
       "upvotes": 130,
-      "observed_at": "2026-11-10T19:43:39+00:00"
-    },
-    {
-      "arxiv_id": "2610.36729",
-      "upvotes": 112,
-      "observed_at": "2026-11-03T19:29:52+00:00"
-    },
-    {
-      "arxiv_id": "2608.16157",
-      "upvotes": 111,
-      "observed_at": "2026-11-03T19:29:52+00:00"
+      "observed_at": "2026-11-11T19:35:46+00:00"
     },
     {
       "arxiv_id": "2508.19205",
       "upvotes": 186,
-      "observed_at": "2026-11-10T19:43:39+00:00"
+      "observed_at": "2026-11-11T19:35:46+00:00"
     },
     {
       "arxiv_id": "2611.00859",
@@ -621,7 +611,7 @@
     {
       "arxiv_id": "2610.22471",
       "upvotes": 135,
-      "observed_at": "2026-11-10T19:43:39+00:00"
+      "observed_at": "2026-11-11T19:35:46+00:00"
     },
     {
       "arxiv_id": "2603.26164",
