@@ -1,67 +1,9 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-13T19:41:50+00:00",
+  "updated_at": "2026-11-14T18:01:26+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
-    {
-      "id": "arxiv:2605.23904",
-      "arxiv_id": "2605.23904",
-      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
-      "authors": [
-        "Yifan Yang",
-        "Ziyang Gong",
-        "Weiquan Huang",
-        "Qihao Yang",
-        "Ziwei Zhou",
-        "Zisu Huang",
-        "Yan Li",
-        "Xuemei Gao",
-        "Qi Dai",
-        "Bei Liu",
-        "Kai Qiu",
-        "Yuqing Yang",
-        "Dongdong Chen",
-        "Xue Yang",
-        "Chong Luo"
-      ],
-      "abstract": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained as the external state of a frozen agent, with the same discipline that makes weight-space optimization reproducible. SkillOpt is, to our knowledge, the first systematic controllable text-space optimizer for agent skills: a separate optimizer model turns scored rollouts into bounded add/delete/replace edits on a single skill document, and an edit is accepted only when it strictly improves a held-out validation score. A textual learning-rate budget, rejected-edit buffer, and epoch-wise slow/meta update make skill training stable while adding zero inference-time model calls at deployment. Across six benchmarks, seven target models, and three execution harnesses (direct chat, Codex, Claude Code), SkillOpt is best or tied on all 52 evaluated (model, benchmark, harness) cells and beats every per-cell competitor among human, one-shot LLM, Trace2Skill, TextGrad, GEPA, and EvoSkill skills. On GPT-5.5 it lifts the average no-skill accuracy by +23.5 points in direct chat, by +24.8 inside the Codex agentic loop, and by +19.1 inside Claude Code. Transfer experiments further show that optimized skill artifacts retain value when moved across model scales, between Codex and Claude Code execution environments, and to a nearby math benchmark without further optimization.",
-      "category": "AI research",
-      "keywords": [
-        "Agents & tools",
-        "Evaluation"
-      ],
-      "upvotes": 220,
-      "published_at": "2026-05-21T20:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2605.23904",
-      "arxiv_url": "https://arxiv.org/abs/2605.23904",
-      "pdf_url": "https://arxiv.org/pdf/2605.23904",
-      "discussion_url": "https://huggingface.co/papers/2605.23904",
-      "tldr_20_words": "",
-      "summary_25_words": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained as the external state of a frozen agent, with the same discipline that makes weight-space optimization reproducible. SkillOpt is, to our knowledge, the first systematic controllable text-space optimizer for agent skills: a separate optimizer model turns scored rollouts into bounded add/delete/replace edits on a single skill document, and an edit is accepted only when it strictly improves a held-out validation score. A textual learning-rate budget, rejected-edit buffer, and epoch-wise slow/meta update make skill training stable while adding zero inference-time model calls at deployment. Across six benchmarks, seven target models, and three execution harnesses (direct chat, Codex, Claude Code), SkillOpt is best or tied on all 52 evaluated (model, benchmark, harness) cells and beats every per-cell competitor among human, one-shot LLM, Trace2Skill, TextGrad, GEPA, and EvoSkill skills. On GPT-5.5 it lifts the average no-skill accuracy by +23.5 points in direct chat, by +24.8 inside the Codex agentic loop, and by +19.1 inside Claude Code. Transfer experiments further show that optimized skill artifacts retain value when moved across model scales, between Codex and Claude Code execution environments, and to a nearby math benchmark without further optimization.",
-      "breakthrough": "",
-      "example_architecture": "Not specified in the abstract.",
-      "training_strategy": "Not specified in the abstract.",
-      "dataset_curation": "Not specified in the abstract.",
-      "tags": [
-        "Agents & tools",
-        "Evaluation"
-      ],
-      "reasoning": "Not specified in the abstract.",
-      "state_space_fusion": "Not specified in the abstract.",
-      "key_mechanism": "Not specified in the abstract.",
-      "evaluation": "Not specified in the abstract.",
-      "three_pillars": {
-        "core_breakthrough": "Not specified in the abstract.",
-        "methodological_novelty": "Not specified in the abstract.",
-        "empirical_validation": "Not specified in the abstract."
-      },
-      "summary_source": "abstract",
-      "upvote_velocity": {
-        "change": null,
-        "per_day": null
-      }
-    },
     {
       "id": "arxiv:2508.19205",
       "arxiv_id": "2508.19205",
@@ -289,7 +231,7 @@
       "keywords": [
         "Agents & tools"
       ],
-      "upvotes": 165,
+      "upvotes": 166,
       "published_at": "2024-12-28T07:54:06.000Z",
       "hf_url": "https://huggingface.co/papers/2412.20138",
       "arxiv_url": "https://arxiv.org/abs/2412.20138",
@@ -316,7 +258,7 @@
       "summary_source": "abstract",
       "upvote_velocity": {
         "change": 1,
-        "per_day": 1.0
+        "per_day": 1.1
       }
     },
     {
@@ -549,15 +491,63 @@
         "change": 0,
         "per_day": 0.0
       }
+    },
+    {
+      "id": "arxiv:2611.15777",
+      "arxiv_id": "2611.15777",
+      "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "authors": [
+        "Lichen Li",
+        "Ziping Dong",
+        "Sicheng Feng",
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "abstract": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 domains and five capability families. For the capability spectrum, SO-Arena offers evidence-grounded evaluation through reliable sources and manual verification of reference labels against model-visible inputs; fine-grained capability assessment through domain-specific difficulty criteria; and realistic interactive evaluation, where models iteratively execute actions in sandboxes. Reasoning-intensive tasks further enable system one-two comparison. Beyond accuracy, SO-Arena assesses decision reliability through two complementary measures: decision stability under controlled option-set changes and missing-answer recognition when no valid option is available. Evaluations across 21 models reveal that the benefits of scaling and additional reasoning vary substantially across domains. More importantly, strong overall performance does not necessarily imply reliable decision-making: the best-performing System One model ranks only seventh in reliability. Together, these findings highlight the need to characterize capability spectrum and decision reliability as complementary dimensions, providing a systematic view of the strengths and limitations of System One models.",
+      "category": "AI research",
+      "keywords": [
+        "Evaluation",
+        "Reasoning"
+      ],
+      "upvotes": 123,
+      "published_at": "2026-11-10T19:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2611.15777",
+      "arxiv_url": "https://arxiv.org/abs/2611.15777",
+      "pdf_url": "https://arxiv.org/pdf/2611.15777",
+      "discussion_url": "https://huggingface.co/papers/2611.15777",
+      "tldr_20_words": "",
+      "summary_25_words": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 domains and five capability families. For the capability spectrum, SO-Arena offers evidence-grounded evaluation through reliable sources and manual verification of reference labels against model-visible inputs; fine-grained capability assessment through domain-specific difficulty criteria; and realistic interactive evaluation, where models iteratively execute actions in sandboxes. Reasoning-intensive tasks further enable system one-two comparison. Beyond accuracy, SO-Arena assesses decision reliability through two complementary measures: decision stability under controlled option-set changes and missing-answer recognition when no valid option is available. Evaluations across 21 models reveal that the benefits of scaling and additional reasoning vary substantially across domains. More importantly, strong overall performance does not necessarily imply reliable decision-making: the best-performing System One model ranks only seventh in reliability. Together, these findings highlight the need to characterize capability spectrum and decision reliability as complementary dimensions, providing a systematic view of the strengths and limitations of System One models.",
+      "breakthrough": "",
+      "example_architecture": "Not specified in the abstract.",
+      "training_strategy": "Not specified in the abstract.",
+      "dataset_curation": "Not specified in the abstract.",
+      "tags": [
+        "Evaluation",
+        "Reasoning"
+      ],
+      "reasoning": "Not specified in the abstract.",
+      "state_space_fusion": "Not specified in the abstract.",
+      "key_mechanism": "Not specified in the abstract.",
+      "evaluation": "Not specified in the abstract.",
+      "three_pillars": {
+        "core_breakthrough": "Not specified in the abstract.",
+        "methodological_novelty": "Not specified in the abstract.",
+        "empirical_validation": "Not specified in the abstract."
+      },
+      "summary_source": "abstract",
+      "upvote_velocity": {
+        "change": null,
+        "per_day": null
+      }
     }
   ],
   "trending_topics": [
     {
-      "tag": "Agents & tools",
+      "tag": "Evaluation",
       "count": 3
     },
     {
-      "tag": "Evaluation",
+      "tag": "Reasoning",
       "count": 3
     },
     {
@@ -565,11 +555,11 @@
       "count": 3
     },
     {
-      "tag": "Generative models",
+      "tag": "Agents & tools",
       "count": 2
     },
     {
-      "tag": "Reasoning",
+      "tag": "Generative models",
       "count": 2
     },
     {
@@ -581,27 +571,27 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-13T19:41:50+00:00"
+      "observed_at": "2026-11-14T18:01:26+00:00"
     },
     {
       "arxiv_id": "2509.22186",
       "upvotes": 181,
-      "observed_at": "2026-11-13T19:41:50+00:00"
+      "observed_at": "2026-11-14T18:01:26+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 176,
-      "observed_at": "2026-11-13T19:41:50+00:00"
+      "observed_at": "2026-11-14T18:01:26+00:00"
     },
     {
       "arxiv_id": "2412.20138",
-      "upvotes": 165,
-      "observed_at": "2026-11-13T19:41:50+00:00"
+      "upvotes": 166,
+      "observed_at": "2026-11-14T18:01:26+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 156,
-      "observed_at": "2026-11-13T19:41:50+00:00"
+      "observed_at": "2026-11-14T18:01:26+00:00"
     },
     {
       "arxiv_id": "2605.31264",
@@ -611,17 +601,12 @@
     {
       "arxiv_id": "2508.19205",
       "upvotes": 186,
-      "observed_at": "2026-11-13T19:41:50+00:00"
-    },
-    {
-      "arxiv_id": "2611.00859",
-      "upvotes": 124,
-      "observed_at": "2026-11-05T19:57:01+00:00"
+      "observed_at": "2026-11-14T18:01:26+00:00"
     },
     {
       "arxiv_id": "2610.22471",
       "upvotes": 135,
-      "observed_at": "2026-11-13T19:41:50+00:00"
+      "observed_at": "2026-11-14T18:01:26+00:00"
     },
     {
       "arxiv_id": "2603.26164",
@@ -637,6 +622,11 @@
       "arxiv_id": "2605.23904",
       "upvotes": 220,
       "observed_at": "2026-11-13T19:41:50+00:00"
+    },
+    {
+      "arxiv_id": "2611.15777",
+      "upvotes": 123,
+      "observed_at": "2026-11-14T18:01:26+00:00"
     }
   ]
 }
