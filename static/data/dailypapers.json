@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-14T18:01:26+00:00",
+  "updated_at": "2026-11-15T18:51:31+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -257,8 +257,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 1,
-        "per_day": 1.1
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -493,37 +493,43 @@
       }
     },
     {
-      "id": "arxiv:2611.15777",
-      "arxiv_id": "2611.15777",
-      "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "id": "arxiv:2608.16157",
+      "arxiv_id": "2608.16157",
+      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
       "authors": [
-        "Lichen Li",
-        "Ziping Dong",
-        "Sicheng Feng",
-        "Qi Li",
-        "Xinchao Wang"
+        "Shuo Yang",
+        "Xiaoze Fan",
+        "Melissa Pan",
+        "Haocheng Xi",
+        "Zhe Wang",
+        "Shanlin Sun",
+        "Kurt Keutzer",
+        "Song Han",
+        "Matei Zaharia",
+        "Chenfeng Xu",
+        "Ion Stoica"
       ],
-      "abstract": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 domains and five capability families. For the capability spectrum, SO-Arena offers evidence-grounded evaluation through reliable sources and manual verification of reference labels against model-visible inputs; fine-grained capability assessment through domain-specific difficulty criteria; and realistic interactive evaluation, where models iteratively execute actions in sandboxes. Reasoning-intensive tasks further enable system one-two comparison. Beyond accuracy, SO-Arena assesses decision reliability through two complementary measures: decision stability under controlled option-set changes and missing-answer recognition when no valid option is available. Evaluations across 21 models reveal that the benefits of scaling and additional reasoning vary substantially across domains. More importantly, strong overall performance does not necessarily imply reliable decision-making: the best-performing System One model ranks only seventh in reliability. Together, these findings highlight the need to characterize capability spectrum and decision reliability as complementary dimensions, providing a systematic view of the strengths and limitations of System One models.",
+      "abstract": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
       "category": "AI research",
       "keywords": [
-        "Evaluation",
-        "Reasoning"
+        "Agents & tools",
+        "Memory & long context"
       ],
-      "upvotes": 123,
-      "published_at": "2026-11-10T19:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2611.15777",
-      "arxiv_url": "https://arxiv.org/abs/2611.15777",
-      "pdf_url": "https://arxiv.org/pdf/2611.15777",
-      "discussion_url": "https://huggingface.co/papers/2611.15777",
+      "upvotes": 111,
+      "published_at": "2026-08-16T20:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2608.16157",
+      "arxiv_url": "https://arxiv.org/abs/2608.16157",
+      "pdf_url": "https://arxiv.org/pdf/2608.16157",
+      "discussion_url": "https://huggingface.co/papers/2608.16157",
       "tldr_20_words": "",
-      "summary_25_words": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11 domains and five capability families. For the capability spectrum, SO-Arena offers evidence-grounded evaluation through reliable sources and manual verification of reference labels against model-visible inputs; fine-grained capability assessment through domain-specific difficulty criteria; and realistic interactive evaluation, where models iteratively execute actions in sandboxes. Reasoning-intensive tasks further enable system one-two comparison. Beyond accuracy, SO-Arena assesses decision reliability through two complementary measures: decision stability under controlled option-set changes and missing-answer recognition when no valid option is available. Evaluations across 21 models reveal that the benefits of scaling and additional reasoning vary substantially across domains. More importantly, strong overall performance does not necessarily imply reliable decision-making: the best-performing System One model ranks only seventh in reliability. Together, these findings highlight the need to characterize capability spectrum and decision reliability as complementary dimensions, providing a systematic view of the strengths and limitations of System One models.",
+      "summary_25_words": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
       "breakthrough": "",
       "example_architecture": "Not specified in the abstract.",
       "training_strategy": "Not specified in the abstract.",
       "dataset_curation": "Not specified in the abstract.",
       "tags": [
-        "Evaluation",
-        "Reasoning"
+        "Agents & tools",
+        "Memory & long context"
       ],
       "reasoning": "Not specified in the abstract.",
       "state_space_fusion": "Not specified in the abstract.",
@@ -536,18 +542,14 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 0,
+        "per_day": 0.0
       }
     }
   ],
   "trending_topics": [
     {
-      "tag": "Evaluation",
-      "count": 3
-    },
-    {
-      "tag": "Reasoning",
+      "tag": "Agents & tools",
       "count": 3
     },
     {
@@ -555,7 +557,7 @@
       "count": 3
     },
     {
-      "tag": "Agents & tools",
+      "tag": "Evaluation",
       "count": 2
     },
     {
@@ -564,34 +566,38 @@
     },
     {
       "tag": "Memory & long context",
-      "count": 1
+      "count": 2
+    },
+    {
+      "tag": "Reasoning",
+      "count": 2
     }
   ],
   "observations": [
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-14T18:01:26+00:00"
+      "observed_at": "2026-11-15T18:51:31+00:00"
     },
     {
       "arxiv_id": "2509.22186",
       "upvotes": 181,
-      "observed_at": "2026-11-14T18:01:26+00:00"
+      "observed_at": "2026-11-15T18:51:31+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 176,
-      "observed_at": "2026-11-14T18:01:26+00:00"
+      "observed_at": "2026-11-15T18:51:31+00:00"
     },
     {
       "arxiv_id": "2412.20138",
       "upvotes": 166,
-      "observed_at": "2026-11-14T18:01:26+00:00"
+      "observed_at": "2026-11-15T18:51:31+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 156,
-      "observed_at": "2026-11-14T18:01:26+00:00"
+      "observed_at": "2026-11-15T18:51:31+00:00"
     },
     {
       "arxiv_id": "2605.31264",
@@ -601,12 +607,12 @@
     {
       "arxiv_id": "2508.19205",
       "upvotes": 186,
-      "observed_at": "2026-11-14T18:01:26+00:00"
+      "observed_at": "2026-11-15T18:51:31+00:00"
     },
     {
       "arxiv_id": "2610.22471",
       "upvotes": 135,
-      "observed_at": "2026-11-14T18:01:26+00:00"
+      "observed_at": "2026-11-15T18:51:31+00:00"
     },
     {
       "arxiv_id": "2603.26164",
@@ -616,7 +622,7 @@
     {
       "arxiv_id": "2608.16157",
       "upvotes": 111,
-      "observed_at": "2026-11-12T19:54:10+00:00"
+      "observed_at": "2026-11-15T18:51:31+00:00"
     },
     {
       "arxiv_id": "2605.23904",
