@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-17T20:55:06+00:00",
+  "updated_at": "2026-11-18T20:30:41+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -186,7 +186,7 @@
       "keywords": [
         "Vision & multimodal"
       ],
-      "upvotes": 177,
+      "upvotes": 178,
       "published_at": "2025-03-14T12:44:14.000Z",
       "hf_url": "https://huggingface.co/papers/2503.11576",
       "arxiv_url": "https://arxiv.org/abs/2503.11576",
@@ -212,63 +212,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
-      }
-    },
-    {
-      "id": "arxiv:2506.01844",
-      "arxiv_id": "2506.01844",
-      "title": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient\n  Robotics",
-      "authors": [
-        "Mustafa Shukor",
-        "Dana Aubakirova",
-        "Francesco Capuano",
-        "Pepijn Kooijmans",
-        "Steven Palma",
-        "Adil Zouitine",
-        "Michel Aractingi",
-        "Caroline Pascal",
-        "Martino Russi",
-        "Andres Marafioti",
-        "Simon Alibert",
-        "Matthieu Cord",
-        "Thomas Wolf",
-        "Remi Cadene"
-      ],
-      "abstract": "Vision-language models (VLMs) pretrained on large-scale multimodal datasets\nencode rich visual and linguistic knowledge, making them a strong foundation\nfor robotics. Rather than training robotic policies from scratch, recent\napproaches adapt VLMs into vision-language-action (VLA) models that enable\nnatural language-driven perception and control. However, existing VLAs are\ntypically massive--often with billions of parameters--leading to high training\ncosts and limited real-world deployability. Moreover, they rely on academic and\nindustrial datasets, overlooking the growing availability of\ncommunity-collected data from affordable robotic platforms. In this work, we\npresent SmolVLA, a small, efficient, and community-driven VLA that drastically\nreduces both training and inference costs, while retaining competitive\nperformance. SmolVLA is designed to be trained on a single GPU and deployed on\nconsumer-grade GPUs or even CPUs. To further improve responsiveness, we\nintroduce an asynchronous inference stack decoupling perception and action\nprediction from action execution, allowing higher control rates with chunked\naction generation. Despite its compact size, SmolVLA achieves performance\ncomparable to VLAs that are 10x larger. We evaluate SmolVLA on a range of both\nsimulated as well as real-world robotic benchmarks and release all code,\npretrained models, and training data.",
-      "category": "AI research",
-      "keywords": [
-        "Vision & multimodal"
-      ],
-      "upvotes": 171,
-      "published_at": "2025-06-02T12:30:19.000Z",
-      "hf_url": "https://huggingface.co/papers/2506.01844",
-      "arxiv_url": "https://arxiv.org/abs/2506.01844",
-      "pdf_url": "https://arxiv.org/pdf/2506.01844",
-      "discussion_url": "https://huggingface.co/papers/2506.01844",
-      "tldr_20_words": "",
-      "summary_25_words": "Vision-language models (VLMs) pretrained on large-scale multimodal datasets\nencode rich visual and linguistic knowledge, making them a strong foundation\nfor robotics. Rather than training robotic policies from scratch, recent\napproaches adapt VLMs into vision-language-action (VLA) models that enable\nnatural language-driven perception and control. However, existing VLAs are\ntypically massive--often with billions of parameters--leading to high training\ncosts and limited real-world deployability. Moreover, they rely on academic and\nindustrial datasets, overlooking the growing availability of\ncommunity-collected data from affordable robotic platforms. In this work, we\npresent SmolVLA, a small, efficient, and community-driven VLA that drastically\nreduces both training and inference costs, while retaining competitive\nperformance. SmolVLA is designed to be trained on a single GPU and deployed on\nconsumer-grade GPUs or even CPUs. To further improve responsiveness, we\nintroduce an asynchronous inference stack decoupling perception and action\nprediction from action execution, allowing higher control rates with chunked\naction generation. Despite its compact size, SmolVLA achieves performance\ncomparable to VLAs that are 10x larger. We evaluate SmolVLA on a range of both\nsimulated as well as real-world robotic benchmarks and release all code,\npretrained models, and training data.",
-      "breakthrough": "",
-      "example_architecture": "Not specified in the abstract.",
-      "training_strategy": "Not specified in the abstract.",
-      "dataset_curation": "Not specified in the abstract.",
-      "tags": [
-        "Vision & multimodal"
-      ],
-      "reasoning": "Not specified in the abstract.",
-      "state_space_fusion": "Not specified in the abstract.",
-      "key_mechanism": "Not specified in the abstract.",
-      "evaluation": "Not specified in the abstract.",
-      "three_pillars": {
-        "core_breakthrough": "Not specified in the abstract.",
-        "methodological_novelty": "Not specified in the abstract.",
-        "empirical_validation": "Not specified in the abstract."
-      },
-      "summary_source": "abstract",
-      "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": 1,
+        "per_day": 1.0
       }
     },
     {
@@ -286,7 +231,7 @@
       "keywords": [
         "Agents & tools"
       ],
-      "upvotes": 169,
+      "upvotes": 168,
       "published_at": "2024-12-28T07:54:06.000Z",
       "hf_url": "https://huggingface.co/papers/2412.20138",
       "arxiv_url": "https://arxiv.org/abs/2412.20138",
@@ -312,8 +257,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": -1,
+        "per_day": -1.0
       }
     },
     {
@@ -440,97 +385,66 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": -1,
-        "per_day": -1.0
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
-      "id": "arxiv:2610.22471",
-      "arxiv_id": "2610.22471",
-      "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+      "id": "arxiv:2611.18397",
+      "arxiv_id": "2611.18397",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
       "authors": [
-        "SenseNova",
-        "Joint Research Team",
-        "Zhongang Cai",
-        "Ziang Cao",
-        "Tailai Chen",
-        "Han Chong Chua",
-        "Linjun Dai",
-        "Hanming Deng",
-        "Hokin Deng",
-        "Haiwen Diao",
-        "Chenjing Ding",
-        "Weichen Fan",
-        "Xiao Fu",
-        "Zerui Gong",
-        "Chenyang Gu",
-        "Zexin He",
-        "Zhi Hou",
-        "Bo Li",
-        "Qinyue Li",
-        "Quanzhou Li",
-        "Xiaowan Li",
-        "Zhichao Liao",
-        "Dahua Lin",
-        "Zilong Lin",
-        "Bo Liu",
-        "Chunxiao Liu",
-        "Pengfei Liu",
-        "Tianqi Liu",
-        "Ziwei Liu",
-        "Chen Change Loy",
-        "Lewei Lu",
-        "Jiapeng Luo",
-        "Yuexiao Ma",
-        "Liang Pan",
-        "Xingang Pan",
-        "Oscar Qian",
-        "Ziyi Shang",
-        "Yuyao Shao",
-        "Dawei Su",
-        "Dacheng Tao",
-        "Qingyi Tao",
-        "Quan Wang",
-        "Ruisi Wang",
-        "Xiaogang Wang",
-        "Ziyi Wang",
-        "Beichen Wen",
-        "Donghao Wu",
-        "Jiaxu Wu",
-        "Silei Wu",
-        "Xiaoming Wu",
-        "Zhonghua Wu",
-        "Hongcan Xiao",
-        "Weiye Xu",
-        "Atsushi Yamashita",
-        "Lei Yang",
-        "Zhe Yang",
-        "Baiqiao Yin",
-        "Wanqi Yin",
-        "Hanfei Zhao",
-        "Tianbo Zhong",
-        "Long Zhuo",
-        "Jing Zuo"
+        "Run Luo",
+        "Kuan Zhang",
+        "Qi Deng",
+        "Yukun Chen",
+        "Zhihao Yang",
+        "Yufei Zhang",
+        "Renrong Hu",
+        "Yi Zhang",
+        "Guiyu Ma",
+        "Tianyu Fan",
+        "Longze Chen",
+        "Hao Sun",
+        "Jiaming Li",
+        "Jiaming Yang",
+        "Xiaohao Liu",
+        "Tao Tan",
+        "Minzheng Wang",
+        "Hangtian Jia",
+        "Shuai Yuan",
+        "Lvdi Wang",
+        "Xiao Liu",
+        "Chao Ma",
+        "Yuting Zou",
+        "Yinhe Zheng",
+        "Xiaobo Xia",
+        "Dawei Jiang",
+        "Shaoqing Ren"
       ],
-      "abstract": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative benchmarks spanning tabletop manipulation, humanoids, mobile platforms, and dexterous hands. Under a unified protocol that allows in-context learning (ICL) from training-set demonstrations and substantially increases the number of execution steps, GPT-6-Astra achieves unprecedented performance (Fig. 1). Future research may focus on improving 1) the generality of ICL 2) cost and execution time, 3) physical-state verification, 4) recovery from irreversible failures, and 5) long-horizon preservation of progress. Second, we study the agentic harness for embodied control. We identify that close-loop coordination between a high-level \"System 2\" reasoner (i.e., GPT-6-Astra) and a low-level \"System 1\" controller (e.g., π0.5) is costly but effective. Third, we examine GPT-6-Astra on real-world deployment. Our experiments on 8 robot configurations reveal substantial gaps: 1) robot demonstrations required for ICL are expensive to collect, and 2) it is implausible to trade longer execution for higher success rates with physical constraints. Fourth, we envision the next generation of embodied benchmarks. We develop a prototype that 1) derives tasks from real-world needs, 2) provides no in-domain demonstrations, and 3) judges agents on a world clock that keeps running while they deliberate. Taken together, our results suggest that GPT-6-Astra has largely crossed the threshold of embodied competence, but not yet that of practical embodied intelligence.",
+      "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
       "category": "AI research",
       "keywords": [
-        "Evaluation"
+        "Agents & tools",
+        "Memory & long context",
+        "RL & feedback"
       ],
-      "upvotes": 136,
-      "published_at": "2026-10-14T20:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2610.22471",
-      "arxiv_url": "https://arxiv.org/abs/2610.22471",
-      "pdf_url": "https://arxiv.org/pdf/2610.22471",
-      "discussion_url": "https://huggingface.co/papers/2610.22471",
+      "upvotes": 129,
+      "published_at": "2026-11-12T19:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2611.18397",
+      "arxiv_url": "https://arxiv.org/abs/2611.18397",
+      "pdf_url": "https://arxiv.org/pdf/2611.18397",
+      "discussion_url": "https://huggingface.co/papers/2611.18397",
       "tldr_20_words": "",
-      "summary_25_words": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative benchmarks spanning tabletop manipulation, humanoids, mobile platforms, and dexterous hands. Under a unified protocol that allows in-context learning (ICL) from training-set demonstrations and substantially increases the number of execution steps, GPT-6-Astra achieves unprecedented performance (Fig. 1). Future research may focus on improving 1) the generality of ICL 2) cost and execution time, 3) physical-state verification, 4) recovery from irreversible failures, and 5) long-horizon preservation of progress. Second, we study the agentic harness for embodied control. We identify that close-loop coordination between a high-level \"System 2\" reasoner (i.e., GPT-6-Astra) and a low-level \"System 1\" controller (e.g., π0.5) is costly but effective. Third, we examine GPT-6-Astra on real-world deployment. Our experiments on 8 robot configurations reveal substantial gaps: 1) robot demonstrations required for ICL are expensive to collect, and 2) it is implausible to trade longer execution for higher success rates with physical constraints. Fourth, we envision the next generation of embodied benchmarks. We develop a prototype that 1) derives tasks from real-world needs, 2) provides no in-domain demonstrations, and 3) judges agents on a world clock that keeps running while they deliberate. Taken together, our results suggest that GPT-6-Astra has largely crossed the threshold of embodied competence, but not yet that of practical embodied intelligence.",
+      "summary_25_words": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
       "breakthrough": "",
       "example_architecture": "Not specified in the abstract.",
       "training_strategy": "Not specified in the abstract.",
       "dataset_curation": "Not specified in the abstract.",
       "tags": [
-        "Evaluation"
+        "Agents & tools",
+        "Memory & long context",
+        "RL & feedback"
       ],
       "reasoning": "Not specified in the abstract.",
       "state_space_fusion": "Not specified in the abstract.",
@@ -543,23 +457,77 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": null,
+        "per_day": null
+      }
+    },
+    {
+      "id": "arxiv:2608.16157",
+      "arxiv_id": "2608.16157",
+      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+      "authors": [
+        "Shuo Yang",
+        "Xiaoze Fan",
+        "Melissa Pan",
+        "Haocheng Xi",
+        "Zhe Wang",
+        "Shanlin Sun",
+        "Kurt Keutzer",
+        "Song Han",
+        "Matei Zaharia",
+        "Chenfeng Xu",
+        "Ion Stoica"
+      ],
+      "abstract": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
+      "category": "AI research",
+      "keywords": [
+        "Agents & tools",
+        "Memory & long context"
+      ],
+      "upvotes": 110,
+      "published_at": "2026-08-16T20:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2608.16157",
+      "arxiv_url": "https://arxiv.org/abs/2608.16157",
+      "pdf_url": "https://arxiv.org/pdf/2608.16157",
+      "discussion_url": "https://huggingface.co/papers/2608.16157",
+      "tldr_20_words": "",
+      "summary_25_words": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
+      "breakthrough": "",
+      "example_architecture": "Not specified in the abstract.",
+      "training_strategy": "Not specified in the abstract.",
+      "dataset_curation": "Not specified in the abstract.",
+      "tags": [
+        "Agents & tools",
+        "Memory & long context"
+      ],
+      "reasoning": "Not specified in the abstract.",
+      "state_space_fusion": "Not specified in the abstract.",
+      "key_mechanism": "Not specified in the abstract.",
+      "evaluation": "Not specified in the abstract.",
+      "three_pillars": {
+        "core_breakthrough": "Not specified in the abstract.",
+        "methodological_novelty": "Not specified in the abstract.",
+        "empirical_validation": "Not specified in the abstract."
+      },
+      "summary_source": "abstract",
+      "upvote_velocity": {
+        "change": -1,
+        "per_day": -0.3
       }
     }
   ],
   "trending_topics": [
     {
-      "tag": "Vision & multimodal",
+      "tag": "Agents & tools",
       "count": 4
     },
     {
-      "tag": "Agents & tools",
-      "count": 2
+      "tag": "Memory & long context",
+      "count": 3
     },
     {
-      "tag": "Evaluation",
-      "count": 2
+      "tag": "Vision & multimodal",
+      "count": 3
     },
     {
       "tag": "Generative models",
@@ -570,7 +538,11 @@
       "count": 2
     },
     {
-      "tag": "Memory & long context",
+      "tag": "Evaluation",
+      "count": 1
+    },
+    {
+      "tag": "RL & feedback",
       "count": 1
     }
   ],
@@ -578,27 +550,27 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-17T20:55:06+00:00"
+      "observed_at": "2026-11-18T20:30:41+00:00"
     },
     {
       "arxiv_id": "2509.22186",
       "upvotes": 182,
-      "observed_at": "2026-11-17T20:55:06+00:00"
+      "observed_at": "2026-11-18T20:30:41+00:00"
     },
     {
       "arxiv_id": "2503.11576",
-      "upvotes": 177,
-      "observed_at": "2026-11-17T20:55:06+00:00"
+      "upvotes": 178,
+      "observed_at": "2026-11-18T20:30:41+00:00"
     },
     {
       "arxiv_id": "2412.20138",
-      "upvotes": 169,
-      "observed_at": "2026-11-17T20:55:06+00:00"
+      "upvotes": 168,
+      "observed_at": "2026-11-18T20:30:41+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 157,
-      "observed_at": "2026-11-17T20:55:06+00:00"
+      "observed_at": "2026-11-18T20:30:41+00:00"
     },
     {
       "arxiv_id": "2605.31264",
@@ -608,7 +580,7 @@
     {
       "arxiv_id": "2508.19205",
       "upvotes": 187,
-      "observed_at": "2026-11-17T20:55:06+00:00"
+      "observed_at": "2026-11-18T20:30:41+00:00"
     },
     {
       "arxiv_id": "2610.22471",
@@ -616,14 +588,9 @@
       "observed_at": "2026-11-17T20:55:06+00:00"
     },
     {
-      "arxiv_id": "2603.26164",
-      "upvotes": 248,
-      "observed_at": "2026-11-09T22:21:45+00:00"
-    },
-    {
       "arxiv_id": "2608.16157",
-      "upvotes": 111,
-      "observed_at": "2026-11-15T18:51:31+00:00"
+      "upvotes": 110,
+      "observed_at": "2026-11-18T20:30:41+00:00"
     },
     {
       "arxiv_id": "2605.23904",
@@ -639,6 +606,11 @@
       "arxiv_id": "2506.01844",
       "upvotes": 171,
       "observed_at": "2026-11-17T20:55:06+00:00"
+    },
+    {
+      "arxiv_id": "2611.18397",
+      "upvotes": 129,
+      "observed_at": "2026-11-18T20:30:41+00:00"
     }
   ]
 }
