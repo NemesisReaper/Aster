@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-18T20:30:41+00:00",
+  "updated_at": "2026-11-19T20:37:17+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -132,7 +132,7 @@
       "keywords": [
         "Vision & multimodal"
       ],
-      "upvotes": 182,
+      "upvotes": 184,
       "published_at": "2025-09-26T06:45:48.000Z",
       "hf_url": "https://huggingface.co/papers/2509.22186",
       "arxiv_url": "https://arxiv.org/abs/2509.22186",
@@ -158,8 +158,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": 2,
+        "per_day": 2.0
       }
     },
     {
@@ -212,8 +212,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 1,
-        "per_day": 1.0
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -231,7 +231,7 @@
       "keywords": [
         "Agents & tools"
       ],
-      "upvotes": 168,
+      "upvotes": 169,
       "published_at": "2024-12-28T07:54:06.000Z",
       "hf_url": "https://huggingface.co/papers/2412.20138",
       "arxiv_url": "https://arxiv.org/abs/2412.20138",
@@ -257,8 +257,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": -1,
-        "per_day": -1.0
+        "change": 1,
+        "per_day": 1.0
       }
     },
     {
@@ -277,7 +277,7 @@
         "Vision & multimodal",
         "Reasoning"
       ],
-      "upvotes": 157,
+      "upvotes": 158,
       "published_at": "2026-05-03T20:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2605.03042",
       "arxiv_url": "https://arxiv.org/abs/2605.03042",
@@ -305,8 +305,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": 1,
+        "per_day": 1.0
       }
     },
     {
@@ -429,7 +429,7 @@
         "Memory & long context",
         "RL & feedback"
       ],
-      "upvotes": 129,
+      "upvotes": 136,
       "published_at": "2026-11-12T19:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2611.18397",
       "arxiv_url": "https://arxiv.org/abs/2611.18397",
@@ -457,48 +457,41 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 7,
+        "per_day": 7.0
       }
     },
     {
-      "id": "arxiv:2608.16157",
-      "arxiv_id": "2608.16157",
-      "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+      "id": "arxiv:2611.24738",
+      "arxiv_id": "2611.24738",
+      "title": "Jeveration: System One Models Now Generate",
       "authors": [
-        "Shuo Yang",
-        "Xiaoze Fan",
-        "Melissa Pan",
-        "Haocheng Xi",
-        "Zhe Wang",
-        "Shanlin Sun",
-        "Kurt Keutzer",
-        "Song Han",
-        "Matei Zaharia",
-        "Chenfeng Xu",
-        "Ion Stoica"
+        "Yuhe Liu",
+        "Qi Li",
+        "Shihua Zhang",
+        "Xinchao Wang"
       ],
-      "abstract": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
+      "abstract": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
       "category": "AI research",
       "keywords": [
-        "Agents & tools",
-        "Memory & long context"
+        "Vision & multimodal",
+        "Generative models"
       ],
       "upvotes": 110,
-      "published_at": "2026-08-16T20:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2608.16157",
-      "arxiv_url": "https://arxiv.org/abs/2608.16157",
-      "pdf_url": "https://arxiv.org/pdf/2608.16157",
-      "discussion_url": "https://huggingface.co/papers/2608.16157",
+      "published_at": "2026-11-17T19:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2611.24738",
+      "arxiv_url": "https://arxiv.org/abs/2611.24738",
+      "pdf_url": "https://arxiv.org/pdf/2611.24738",
+      "discussion_url": "https://huggingface.co/papers/2611.24738",
       "tldr_20_words": "",
-      "summary_25_words": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
+      "summary_25_words": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
       "breakthrough": "",
       "example_architecture": "Not specified in the abstract.",
       "training_strategy": "Not specified in the abstract.",
       "dataset_curation": "Not specified in the abstract.",
       "tags": [
-        "Agents & tools",
-        "Memory & long context"
+        "Vision & multimodal",
+        "Generative models"
       ],
       "reasoning": "Not specified in the abstract.",
       "state_space_fusion": "Not specified in the abstract.",
@@ -511,26 +504,26 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": -1,
-        "per_day": -0.3
+        "change": null,
+        "per_day": null
       }
     }
   ],
   "trending_topics": [
     {
-      "tag": "Agents & tools",
+      "tag": "Vision & multimodal",
       "count": 4
     },
     {
-      "tag": "Memory & long context",
-      "count": 3
-    },
-    {
-      "tag": "Vision & multimodal",
+      "tag": "Agents & tools",
       "count": 3
     },
     {
       "tag": "Generative models",
+      "count": 3
+    },
+    {
+      "tag": "Memory & long context",
       "count": 2
     },
     {
@@ -550,37 +543,32 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-18T20:30:41+00:00"
+      "observed_at": "2026-11-19T20:37:17+00:00"
     },
     {
       "arxiv_id": "2509.22186",
-      "upvotes": 182,
-      "observed_at": "2026-11-18T20:30:41+00:00"
+      "upvotes": 184,
+      "observed_at": "2026-11-19T20:37:17+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 178,
-      "observed_at": "2026-11-18T20:30:41+00:00"
+      "observed_at": "2026-11-19T20:37:17+00:00"
     },
     {
       "arxiv_id": "2412.20138",
-      "upvotes": 168,
-      "observed_at": "2026-11-18T20:30:41+00:00"
+      "upvotes": 169,
+      "observed_at": "2026-11-19T20:37:17+00:00"
     },
     {
       "arxiv_id": "2605.03042",
-      "upvotes": 157,
-      "observed_at": "2026-11-18T20:30:41+00:00"
-    },
-    {
-      "arxiv_id": "2605.31264",
-      "upvotes": 130,
-      "observed_at": "2026-11-11T19:35:46+00:00"
+      "upvotes": 158,
+      "observed_at": "2026-11-19T20:37:17+00:00"
     },
     {
       "arxiv_id": "2508.19205",
       "upvotes": 187,
-      "observed_at": "2026-11-18T20:30:41+00:00"
+      "observed_at": "2026-11-19T20:37:17+00:00"
     },
     {
       "arxiv_id": "2610.22471",
@@ -609,8 +597,13 @@
     },
     {
       "arxiv_id": "2611.18397",
-      "upvotes": 129,
-      "observed_at": "2026-11-18T20:30:41+00:00"
+      "upvotes": 136,
+      "observed_at": "2026-11-19T20:37:17+00:00"
+    },
+    {
+      "arxiv_id": "2611.24738",
+      "upvotes": 110,
+      "observed_at": "2026-11-19T20:37:17+00:00"
     }
   ]
 }
