@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-19T20:37:17+00:00",
+  "updated_at": "2026-11-20T20:19:37+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -132,7 +132,7 @@
       "keywords": [
         "Vision & multimodal"
       ],
-      "upvotes": 184,
+      "upvotes": 185,
       "published_at": "2025-09-26T06:45:48.000Z",
       "hf_url": "https://huggingface.co/papers/2509.22186",
       "arxiv_url": "https://arxiv.org/abs/2509.22186",
@@ -158,8 +158,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 2,
-        "per_day": 2.0
+        "change": 1,
+        "per_day": 1.0
       }
     },
     {
@@ -257,8 +257,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 1,
-        "per_day": 1.0
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -305,8 +305,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 1,
-        "per_day": 1.0
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -429,7 +429,7 @@
         "Memory & long context",
         "RL & feedback"
       ],
-      "upvotes": 136,
+      "upvotes": 143,
       "published_at": "2026-11-12T19:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2611.18397",
       "arxiv_url": "https://arxiv.org/abs/2611.18397",
@@ -458,7 +458,7 @@
       "summary_source": "abstract",
       "upvote_velocity": {
         "change": 7,
-        "per_day": 7.0
+        "per_day": 7.1
       }
     },
     {
@@ -477,7 +477,7 @@
         "Vision & multimodal",
         "Generative models"
       ],
-      "upvotes": 110,
+      "upvotes": 137,
       "published_at": "2026-11-17T19:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2611.24738",
       "arxiv_url": "https://arxiv.org/abs/2611.24738",
@@ -504,8 +504,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 27,
+        "per_day": 27.3
       }
     }
   ],
@@ -543,32 +543,32 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-19T20:37:17+00:00"
+      "observed_at": "2026-11-20T20:19:37+00:00"
     },
     {
       "arxiv_id": "2509.22186",
-      "upvotes": 184,
-      "observed_at": "2026-11-19T20:37:17+00:00"
+      "upvotes": 185,
+      "observed_at": "2026-11-20T20:19:37+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 178,
-      "observed_at": "2026-11-19T20:37:17+00:00"
+      "observed_at": "2026-11-20T20:19:37+00:00"
     },
     {
       "arxiv_id": "2412.20138",
       "upvotes": 169,
-      "observed_at": "2026-11-19T20:37:17+00:00"
+      "observed_at": "2026-11-20T20:19:37+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 158,
-      "observed_at": "2026-11-19T20:37:17+00:00"
+      "observed_at": "2026-11-20T20:19:37+00:00"
     },
     {
       "arxiv_id": "2508.19205",
       "upvotes": 187,
-      "observed_at": "2026-11-19T20:37:17+00:00"
+      "observed_at": "2026-11-20T20:19:37+00:00"
     },
     {
       "arxiv_id": "2610.22471",
@@ -597,13 +597,13 @@
     },
     {
       "arxiv_id": "2611.18397",
-      "upvotes": 136,
-      "observed_at": "2026-11-19T20:37:17+00:00"
+      "upvotes": 143,
+      "observed_at": "2026-11-20T20:19:37+00:00"
     },
     {
       "arxiv_id": "2611.24738",
-      "upvotes": 110,
-      "observed_at": "2026-11-19T20:37:17+00:00"
+      "upvotes": 137,
+      "observed_at": "2026-11-20T20:19:37+00:00"
     }
   ]
 }
