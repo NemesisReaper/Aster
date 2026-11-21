@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-20T20:19:37+00:00",
+  "updated_at": "2026-11-21T19:15:20+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -158,8 +158,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 1,
-        "per_day": 1.0
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -214,6 +214,77 @@
       "upvote_velocity": {
         "change": 0,
         "per_day": 0.0
+      }
+    },
+    {
+      "id": "arxiv:2603.16790",
+      "arxiv_id": "2603.16790",
+      "title": "InCoder-32B: Code Foundation Model for Industrial Scenarios",
+      "authors": [
+        "Jian Yang",
+        "Wei Zhang",
+        "Jiajun Wu",
+        "Junhang Cheng",
+        "Shawn Guo",
+        "Haowen Wang",
+        "Weicheng Gu",
+        "Yaxin Du",
+        "Joseph Li",
+        "Fanglin Xu",
+        "Yizhi Li",
+        "Lin Jing",
+        "Yuanbo Wang",
+        "Yuhan Gao",
+        "Ruihao Gong",
+        "Chuan Hao",
+        "Ran Tao",
+        "Aishan Liu",
+        "Tuney Zheng",
+        "Ganqu Cui",
+        "Zhoujun Li",
+        "Mingjie Tang",
+        "Chenghua Lin",
+        "Wayne Xin Zhao",
+        "Xianglong Liu",
+        "Ming Zhou",
+        "Bryan Dai",
+        "Weifeng Lv"
+      ],
+      "abstract": "Recent code large language models have achieved remarkable progress on general programming tasks. Nevertheless, their performance degrades significantly in industrial scenarios that require reasoning about hardware semantics, specialized language constructs, and strict resource constraints. To address these challenges, we introduce InCoder-32B (Industrial-Coder-32B), the first 32B-parameter code foundation model unifying code intelligence across chip design, GPU kernel optimization, embedded systems, compiler optimization, and 3D modeling. By adopting an efficient architecture, we train InCoder-32B from scratch with general code pre-training, curated industrial code annealing, mid-training that progressively extends context from 8K to 128K tokens with synthetic industrial reasoning data, and post-training with execution-grounded verification. We conduct extensive evaluation on 14 mainstream general code benchmarks and 9 industrial benchmarks spanning 4 specialized domains. Results show InCoder-32B achieves highly competitive performance on general tasks while establishing strong open-source baselines across industrial domains.",
+      "category": "AI research",
+      "keywords": [
+        "Evaluation",
+        "Reasoning"
+      ],
+      "upvotes": 169,
+      "published_at": "2026-03-17T13:01:35.000Z",
+      "hf_url": "https://huggingface.co/papers/2603.16790",
+      "arxiv_url": "https://arxiv.org/abs/2603.16790",
+      "pdf_url": "https://arxiv.org/pdf/2603.16790",
+      "discussion_url": "https://huggingface.co/papers/2603.16790",
+      "tldr_20_words": "",
+      "summary_25_words": "Recent code large language models have achieved remarkable progress on general programming tasks. Nevertheless, their performance degrades significantly in industrial scenarios that require reasoning about hardware semantics, specialized language constructs, and strict resource constraints. To address these challenges, we introduce InCoder-32B (Industrial-Coder-32B), the first 32B-parameter code foundation model unifying code intelligence across chip design, GPU kernel optimization, embedded systems, compiler optimization, and 3D modeling. By adopting an efficient architecture, we train InCoder-32B from scratch with general code pre-training, curated industrial code annealing, mid-training that progressively extends context from 8K to 128K tokens with synthetic industrial reasoning data, and post-training with execution-grounded verification. We conduct extensive evaluation on 14 mainstream general code benchmarks and 9 industrial benchmarks spanning 4 specialized domains. Results show InCoder-32B achieves highly competitive performance on general tasks while establishing strong open-source baselines across industrial domains.",
+      "breakthrough": "",
+      "example_architecture": "Not specified in the abstract.",
+      "training_strategy": "Not specified in the abstract.",
+      "dataset_curation": "Not specified in the abstract.",
+      "tags": [
+        "Evaluation",
+        "Reasoning"
+      ],
+      "reasoning": "Not specified in the abstract.",
+      "state_space_fusion": "Not specified in the abstract.",
+      "key_mechanism": "Not specified in the abstract.",
+      "evaluation": "Not specified in the abstract.",
+      "three_pillars": {
+        "core_breakthrough": "Not specified in the abstract.",
+        "methodological_novelty": "Not specified in the abstract.",
+        "empirical_validation": "Not specified in the abstract."
+      },
+      "summary_source": "abstract",
+      "upvote_velocity": {
+        "change": null,
+        "per_day": null
       }
     },
     {
@@ -390,78 +461,6 @@
       }
     },
     {
-      "id": "arxiv:2611.18397",
-      "arxiv_id": "2611.18397",
-      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
-      "authors": [
-        "Run Luo",
-        "Kuan Zhang",
-        "Qi Deng",
-        "Yukun Chen",
-        "Zhihao Yang",
-        "Yufei Zhang",
-        "Renrong Hu",
-        "Yi Zhang",
-        "Guiyu Ma",
-        "Tianyu Fan",
-        "Longze Chen",
-        "Hao Sun",
-        "Jiaming Li",
-        "Jiaming Yang",
-        "Xiaohao Liu",
-        "Tao Tan",
-        "Minzheng Wang",
-        "Hangtian Jia",
-        "Shuai Yuan",
-        "Lvdi Wang",
-        "Xiao Liu",
-        "Chao Ma",
-        "Yuting Zou",
-        "Yinhe Zheng",
-        "Xiaobo Xia",
-        "Dawei Jiang",
-        "Shaoqing Ren"
-      ],
-      "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
-      "category": "AI research",
-      "keywords": [
-        "Agents & tools",
-        "Memory & long context",
-        "RL & feedback"
-      ],
-      "upvotes": 143,
-      "published_at": "2026-11-12T19:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2611.18397",
-      "arxiv_url": "https://arxiv.org/abs/2611.18397",
-      "pdf_url": "https://arxiv.org/pdf/2611.18397",
-      "discussion_url": "https://huggingface.co/papers/2611.18397",
-      "tldr_20_words": "",
-      "summary_25_words": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
-      "breakthrough": "",
-      "example_architecture": "Not specified in the abstract.",
-      "training_strategy": "Not specified in the abstract.",
-      "dataset_curation": "Not specified in the abstract.",
-      "tags": [
-        "Agents & tools",
-        "Memory & long context",
-        "RL & feedback"
-      ],
-      "reasoning": "Not specified in the abstract.",
-      "state_space_fusion": "Not specified in the abstract.",
-      "key_mechanism": "Not specified in the abstract.",
-      "evaluation": "Not specified in the abstract.",
-      "three_pillars": {
-        "core_breakthrough": "Not specified in the abstract.",
-        "methodological_novelty": "Not specified in the abstract.",
-        "empirical_validation": "Not specified in the abstract."
-      },
-      "summary_source": "abstract",
-      "upvote_velocity": {
-        "change": 7,
-        "per_day": 7.1
-      }
-    },
-    {
       "id": "arxiv:2611.24738",
       "arxiv_id": "2611.24738",
       "title": "Jeveration: System One Models Now Generate",
@@ -477,7 +476,7 @@
         "Vision & multimodal",
         "Generative models"
       ],
-      "upvotes": 137,
+      "upvotes": 148,
       "published_at": "2026-11-17T19:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2611.24738",
       "arxiv_url": "https://arxiv.org/abs/2611.24738",
@@ -504,8 +503,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 27,
-        "per_day": 27.3
+        "change": 11,
+        "per_day": 11.5
       }
     }
   ],
@@ -515,27 +514,23 @@
       "count": 4
     },
     {
-      "tag": "Agents & tools",
-      "count": 3
-    },
-    {
       "tag": "Generative models",
       "count": 3
     },
     {
-      "tag": "Memory & long context",
-      "count": 2
+      "tag": "Reasoning",
+      "count": 3
     },
     {
-      "tag": "Reasoning",
+      "tag": "Agents & tools",
       "count": 2
     },
     {
       "tag": "Evaluation",
-      "count": 1
+      "count": 2
     },
     {
-      "tag": "RL & feedback",
+      "tag": "Memory & long context",
       "count": 1
     }
   ],
@@ -543,32 +538,32 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-20T20:19:37+00:00"
+      "observed_at": "2026-11-21T19:15:20+00:00"
     },
     {
       "arxiv_id": "2509.22186",
       "upvotes": 185,
-      "observed_at": "2026-11-20T20:19:37+00:00"
+      "observed_at": "2026-11-21T19:15:20+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 178,
-      "observed_at": "2026-11-20T20:19:37+00:00"
+      "observed_at": "2026-11-21T19:15:20+00:00"
     },
     {
       "arxiv_id": "2412.20138",
       "upvotes": 169,
-      "observed_at": "2026-11-20T20:19:37+00:00"
+      "observed_at": "2026-11-21T19:15:20+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 158,
-      "observed_at": "2026-11-20T20:19:37+00:00"
+      "observed_at": "2026-11-21T19:15:20+00:00"
     },
     {
       "arxiv_id": "2508.19205",
       "upvotes": 187,
-      "observed_at": "2026-11-20T20:19:37+00:00"
+      "observed_at": "2026-11-21T19:15:20+00:00"
     },
     {
       "arxiv_id": "2610.22471",
@@ -602,8 +597,13 @@
     },
     {
       "arxiv_id": "2611.24738",
-      "upvotes": 137,
-      "observed_at": "2026-11-20T20:19:37+00:00"
+      "upvotes": 148,
+      "observed_at": "2026-11-21T19:15:20+00:00"
+    },
+    {
+      "arxiv_id": "2603.16790",
+      "upvotes": 169,
+      "observed_at": "2026-11-21T19:15:20+00:00"
     }
   ]
 }
