@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-21T19:15:20+00:00",
+  "updated_at": "2026-11-22T19:40:20+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -283,8 +283,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -461,36 +461,61 @@
       }
     },
     {
-      "id": "arxiv:2611.24738",
-      "arxiv_id": "2611.24738",
-      "title": "Jeveration: System One Models Now Generate",
+      "id": "arxiv:2611.18397",
+      "arxiv_id": "2611.18397",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
       "authors": [
-        "Yuhe Liu",
-        "Qi Li",
-        "Shihua Zhang",
-        "Xinchao Wang"
+        "Run Luo",
+        "Kuan Zhang",
+        "Qi Deng",
+        "Yukun Chen",
+        "Zhihao Yang",
+        "Yufei Zhang",
+        "Renrong Hu",
+        "Yi Zhang",
+        "Guiyu Ma",
+        "Tianyu Fan",
+        "Longze Chen",
+        "Hao Sun",
+        "Jiaming Li",
+        "Jiaming Yang",
+        "Xiaohao Liu",
+        "Tao Tan",
+        "Minzheng Wang",
+        "Hangtian Jia",
+        "Shuai Yuan",
+        "Lvdi Wang",
+        "Xiao Liu",
+        "Chao Ma",
+        "Yuting Zou",
+        "Yinhe Zheng",
+        "Xiaobo Xia",
+        "Dawei Jiang",
+        "Shaoqing Ren"
       ],
-      "abstract": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
+      "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
       "category": "AI research",
       "keywords": [
-        "Vision & multimodal",
-        "Generative models"
+        "Agents & tools",
+        "Memory & long context",
+        "RL & feedback"
       ],
-      "upvotes": 148,
-      "published_at": "2026-11-17T19:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2611.24738",
-      "arxiv_url": "https://arxiv.org/abs/2611.24738",
-      "pdf_url": "https://arxiv.org/pdf/2611.24738",
-      "discussion_url": "https://huggingface.co/papers/2611.24738",
+      "upvotes": 150,
+      "published_at": "2026-11-12T19:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2611.18397",
+      "arxiv_url": "https://arxiv.org/abs/2611.18397",
+      "pdf_url": "https://arxiv.org/pdf/2611.18397",
+      "discussion_url": "https://huggingface.co/papers/2611.18397",
       "tldr_20_words": "",
-      "summary_25_words": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
+      "summary_25_words": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
       "breakthrough": "",
       "example_architecture": "Not specified in the abstract.",
       "training_strategy": "Not specified in the abstract.",
       "dataset_curation": "Not specified in the abstract.",
       "tags": [
-        "Vision & multimodal",
-        "Generative models"
+        "Agents & tools",
+        "Memory & long context",
+        "RL & feedback"
       ],
       "reasoning": "Not specified in the abstract.",
       "state_space_fusion": "Not specified in the abstract.",
@@ -503,18 +528,14 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 11,
-        "per_day": 11.5
+        "change": 7,
+        "per_day": 3.5
       }
     }
   ],
   "trending_topics": [
     {
-      "tag": "Vision & multimodal",
-      "count": 4
-    },
-    {
-      "tag": "Generative models",
+      "tag": "Agents & tools",
       "count": 3
     },
     {
@@ -522,15 +543,23 @@
       "count": 3
     },
     {
-      "tag": "Agents & tools",
-      "count": 2
+      "tag": "Vision & multimodal",
+      "count": 3
     },
     {
       "tag": "Evaluation",
       "count": 2
     },
     {
+      "tag": "Generative models",
+      "count": 2
+    },
+    {
       "tag": "Memory & long context",
+      "count": 2
+    },
+    {
+      "tag": "RL & feedback",
       "count": 1
     }
   ],
@@ -538,32 +567,32 @@
     {
       "arxiv_id": "2609.33757",
       "upvotes": 156,
-      "observed_at": "2026-11-21T19:15:20+00:00"
+      "observed_at": "2026-11-22T19:40:20+00:00"
     },
     {
       "arxiv_id": "2509.22186",
       "upvotes": 185,
-      "observed_at": "2026-11-21T19:15:20+00:00"
+      "observed_at": "2026-11-22T19:40:20+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 178,
-      "observed_at": "2026-11-21T19:15:20+00:00"
+      "observed_at": "2026-11-22T19:40:20+00:00"
     },
     {
       "arxiv_id": "2412.20138",
       "upvotes": 169,
-      "observed_at": "2026-11-21T19:15:20+00:00"
+      "observed_at": "2026-11-22T19:40:20+00:00"
     },
     {
       "arxiv_id": "2605.03042",
       "upvotes": 158,
-      "observed_at": "2026-11-21T19:15:20+00:00"
+      "observed_at": "2026-11-22T19:40:20+00:00"
     },
     {
       "arxiv_id": "2508.19205",
       "upvotes": 187,
-      "observed_at": "2026-11-21T19:15:20+00:00"
+      "observed_at": "2026-11-22T19:40:20+00:00"
     },
     {
       "arxiv_id": "2610.22471",
@@ -576,24 +605,14 @@
       "observed_at": "2026-11-18T20:30:41+00:00"
     },
     {
-      "arxiv_id": "2605.23904",
-      "upvotes": 220,
-      "observed_at": "2026-11-13T19:41:50+00:00"
-    },
-    {
-      "arxiv_id": "2611.15777",
-      "upvotes": 123,
-      "observed_at": "2026-11-14T18:01:26+00:00"
-    },
-    {
       "arxiv_id": "2506.01844",
       "upvotes": 171,
       "observed_at": "2026-11-17T20:55:06+00:00"
     },
     {
       "arxiv_id": "2611.18397",
-      "upvotes": 143,
-      "observed_at": "2026-11-20T20:19:37+00:00"
+      "upvotes": 150,
+      "observed_at": "2026-11-22T19:40:20+00:00"
     },
     {
       "arxiv_id": "2611.24738",
@@ -603,7 +622,7 @@
     {
       "arxiv_id": "2603.16790",
       "upvotes": 169,
-      "observed_at": "2026-11-21T19:15:20+00:00"
+      "observed_at": "2026-11-22T19:40:20+00:00"
     }
   ]
 }
