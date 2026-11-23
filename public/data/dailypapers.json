@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-22T19:40:20+00:00",
+  "updated_at": "2026-11-23T23:53:23+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -29,7 +29,7 @@
         "Memory & long context",
         "Generative models"
       ],
-      "upvotes": 187,
+      "upvotes": 188,
       "published_at": "2025-08-26T13:09:12.000Z",
       "hf_url": "https://huggingface.co/papers/2508.19205",
       "arxiv_url": "https://arxiv.org/abs/2508.19205",
@@ -56,8 +56,54 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": 1,
+        "per_day": 0.9
+      }
+    },
+    {
+      "id": "arxiv:2403.13372",
+      "arxiv_id": "2403.13372",
+      "title": "LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models",
+      "authors": [
+        "Yaowei Zheng",
+        "Richong Zhang",
+        "Junhao Zhang",
+        "Yanhan Ye",
+        "Zheyan Luo"
+      ],
+      "abstract": "Efficient fine-tuning is vital for adapting large language models (LLMs) to\ndownstream tasks. However, it requires non-trivial efforts to implement these\nmethods on different models. We present LlamaFactory, a unified framework that\nintegrates a suite of cutting-edge efficient training methods. It allows users\nto flexibly customize the fine-tuning of 100+ LLMs without the need for coding\nthrough the built-in web UI LlamaBoard. We empirically validate the efficiency\nand effectiveness of our framework on language modeling and text generation\ntasks. It has been released at https://github.com/hiyouga/LLaMA-Factory and\nalready received over 13,000 stars and 1,600 forks.",
+      "category": "AI research",
+      "keywords": [
+        "AI research"
+      ],
+      "upvotes": 188,
+      "published_at": "2024-03-20T04:08:54.000Z",
+      "hf_url": "https://huggingface.co/papers/2403.13372",
+      "arxiv_url": "https://arxiv.org/abs/2403.13372",
+      "pdf_url": "https://arxiv.org/pdf/2403.13372",
+      "discussion_url": "https://huggingface.co/papers/2403.13372",
+      "tldr_20_words": "",
+      "summary_25_words": "Efficient fine-tuning is vital for adapting large language models (LLMs) to\ndownstream tasks. However, it requires non-trivial efforts to implement these\nmethods on different models. We present LlamaFactory, a unified framework that\nintegrates a suite of cutting-edge efficient training methods. It allows users\nto flexibly customize the fine-tuning of 100+ LLMs without the need for coding\nthrough the built-in web UI LlamaBoard. We empirically validate the efficiency\nand effectiveness of our framework on language modeling and text generation\ntasks. It has been released at https://github.com/hiyouga/LLaMA-Factory and\nalready received over 13,000 stars and 1,600 forks.",
+      "breakthrough": "",
+      "example_architecture": "Not specified in the abstract.",
+      "training_strategy": "Not specified in the abstract.",
+      "dataset_curation": "Not specified in the abstract.",
+      "tags": [
+        "AI research"
+      ],
+      "reasoning": "Not specified in the abstract.",
+      "state_space_fusion": "Not specified in the abstract.",
+      "key_mechanism": "Not specified in the abstract.",
+      "evaluation": "Not specified in the abstract.",
+      "three_pillars": {
+        "core_breakthrough": "Not specified in the abstract.",
+        "methodological_novelty": "Not specified in the abstract.",
+        "empirical_validation": "Not specified in the abstract."
+      },
+      "summary_source": "abstract",
+      "upvote_velocity": {
+        "change": null,
+        "per_day": null
       }
     },
     {
@@ -132,7 +178,7 @@
       "keywords": [
         "Vision & multimodal"
       ],
-      "upvotes": 185,
+      "upvotes": 184,
       "published_at": "2025-09-26T06:45:48.000Z",
       "hf_url": "https://huggingface.co/papers/2509.22186",
       "arxiv_url": "https://arxiv.org/abs/2509.22186",
@@ -158,8 +204,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": -1,
+        "per_day": -0.9
       }
     },
     {
@@ -302,7 +348,7 @@
       "keywords": [
         "Agents & tools"
       ],
-      "upvotes": 169,
+      "upvotes": 168,
       "published_at": "2024-12-28T07:54:06.000Z",
       "hf_url": "https://huggingface.co/papers/2412.20138",
       "arxiv_url": "https://arxiv.org/abs/2412.20138",
@@ -328,8 +374,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": -1,
+        "per_day": -0.9
       }
     },
     {
@@ -348,7 +394,7 @@
         "Vision & multimodal",
         "Reasoning"
       ],
-      "upvotes": 158,
+      "upvotes": 157,
       "published_at": "2026-05-03T20:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2605.03042",
       "arxiv_url": "https://arxiv.org/abs/2605.03042",
@@ -376,88 +422,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
-      }
-    },
-    {
-      "id": "arxiv:2609.33757",
-      "arxiv_id": "2609.33757",
-      "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
-      "authors": [
-        "Ruibin Yuan",
-        "Jiahao Pan",
-        "Junyan Jiang",
-        "Zhiyue Wu",
-        "Ziya Zhou",
-        "Jiankai Sun",
-        "Yizhi Li",
-        "Ge Zhang",
-        "Yicheng Gu",
-        "Zeyue Tian",
-        "Junyu Dai",
-        "Hanfeng Lin",
-        "Kai Li",
-        "Shangda Wu",
-        "Xuanjie Liu",
-        "Jiaming Wang",
-        "Zihan Liu",
-        "Yue Wang",
-        "Yinghao Ma",
-        "Hanzhi Yin",
-        "Kangrui Chen",
-        "Xinyue Zhang",
-        "Ziyang Ma",
-        "Mengqi Liao",
-        "Hejia Zhao",
-        "Guowei Huang",
-        "Chao Yan",
-        "Lei Ke",
-        "Jianwei Yu",
-        "Bei Liu",
-        "Joe Guo",
-        "Liumeng Xue",
-        "Gus Xia",
-        "Wei Xue",
-        "Yike Guo"
-      ],
-      "abstract": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio models produce complete songs while leaving composition implicit. We introduce YuE2, which unifies symbolic and audio music generation at frontier quality through symbolic planning. A single AR-NAR Mixture-of-Transformers (MoT) first writes a readable score specifying melody and harmony, expands it into semantic music tokens, and realizes it as full-song audio. In comparisons using the same checkpoint, experts prefer symbolic planning for overall quality and musicality, with 49.3% of overall preferences versus 34.6% without planning. Experts also favor the unified model over a separate language model and diffusion Transformer. On WildSongBench, YuE2 scores 6.73 on SongBench Global Avg, exceeding all evaluated public baselines. Selecting from eight candidates (best-of-8), YuE2 reaches 6.96, the highest observed mean among all evaluated systems. Expert listening further establishes its competitiveness with proprietary song generators, favoring best-of-8 over Suno v4.5 and yielding nearly balanced preferences against Suno v5. To learn this generation process from recordings without aligned scores, we introduce MERT2 and SheetSage2 to supply semantic and symbolic supervision. MERT2 sets a new state of the art in music representation learning, surpassing previous best results on 14 of 15 MARBLE metrics; SheetSage2 leads 12 of 15 benchmark-metric pairs in our lead-sheet transcription comparison. The same checkpoint follows score edits while largely preserving unedited musical content and generates zero-shot covers without cover-specific training. Its readable score also enables agentic music editing, with external language models translating user feedback into revisions of the composition.",
-      "category": "AI research",
-      "keywords": [
-        "Evaluation",
-        "Generative models",
-        "Reasoning"
-      ],
-      "upvotes": 156,
-      "published_at": "2026-09-26T20:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2609.33757",
-      "arxiv_url": "https://arxiv.org/abs/2609.33757",
-      "pdf_url": "https://arxiv.org/pdf/2609.33757",
-      "discussion_url": "https://huggingface.co/papers/2609.33757",
-      "tldr_20_words": "",
-      "summary_25_words": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio models produce complete songs while leaving composition implicit. We introduce YuE2, which unifies symbolic and audio music generation at frontier quality through symbolic planning. A single AR-NAR Mixture-of-Transformers (MoT) first writes a readable score specifying melody and harmony, expands it into semantic music tokens, and realizes it as full-song audio. In comparisons using the same checkpoint, experts prefer symbolic planning for overall quality and musicality, with 49.3% of overall preferences versus 34.6% without planning. Experts also favor the unified model over a separate language model and diffusion Transformer. On WildSongBench, YuE2 scores 6.73 on SongBench Global Avg, exceeding all evaluated public baselines. Selecting from eight candidates (best-of-8), YuE2 reaches 6.96, the highest observed mean among all evaluated systems. Expert listening further establishes its competitiveness with proprietary song generators, favoring best-of-8 over Suno v4.5 and yielding nearly balanced preferences against Suno v5. To learn this generation process from recordings without aligned scores, we introduce MERT2 and SheetSage2 to supply semantic and symbolic supervision. MERT2 sets a new state of the art in music representation learning, surpassing previous best results on 14 of 15 MARBLE metrics; SheetSage2 leads 12 of 15 benchmark-metric pairs in our lead-sheet transcription comparison. The same checkpoint follows score edits while largely preserving unedited musical content and generates zero-shot covers without cover-specific training. Its readable score also enables agentic music editing, with external language models translating user feedback into revisions of the composition.",
-      "breakthrough": "",
-      "example_architecture": "Not specified in the abstract.",
-      "training_strategy": "Not specified in the abstract.",
-      "dataset_curation": "Not specified in the abstract.",
-      "tags": [
-        "Evaluation",
-        "Generative models",
-        "Reasoning"
-      ],
-      "reasoning": "Not specified in the abstract.",
-      "state_space_fusion": "Not specified in the abstract.",
-      "key_mechanism": "Not specified in the abstract.",
-      "evaluation": "Not specified in the abstract.",
-      "three_pillars": {
-        "core_breakthrough": "Not specified in the abstract.",
-        "methodological_novelty": "Not specified in the abstract.",
-        "empirical_validation": "Not specified in the abstract."
-      },
-      "summary_source": "abstract",
-      "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": -1,
+        "per_day": -0.9
       }
     },
     {
@@ -500,7 +466,7 @@
         "Memory & long context",
         "RL & feedback"
       ],
-      "upvotes": 150,
+      "upvotes": 156,
       "published_at": "2026-11-12T19:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2611.18397",
       "arxiv_url": "https://arxiv.org/abs/2611.18397",
@@ -528,8 +494,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 7,
-        "per_day": 3.5
+        "change": 6,
+        "per_day": 5.1
       }
     }
   ],
@@ -539,24 +505,28 @@
       "count": 3
     },
     {
-      "tag": "Reasoning",
-      "count": 3
-    },
-    {
       "tag": "Vision & multimodal",
       "count": 3
     },
     {
-      "tag": "Evaluation",
+      "tag": "Memory & long context",
       "count": 2
+    },
+    {
+      "tag": "Reasoning",
+      "count": 2
+    },
+    {
+      "tag": "AI research",
+      "count": 1
+    },
+    {
+      "tag": "Evaluation",
+      "count": 1
     },
     {
       "tag": "Generative models",
-      "count": 2
-    },
-    {
-      "tag": "Memory & long context",
-      "count": 2
+      "count": 1
     },
     {
       "tag": "RL & feedback",
@@ -571,28 +541,28 @@
     },
     {
       "arxiv_id": "2509.22186",
-      "upvotes": 185,
-      "observed_at": "2026-11-22T19:40:20+00:00"
+      "upvotes": 184,
+      "observed_at": "2026-11-23T23:53:23+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 178,
-      "observed_at": "2026-11-22T19:40:20+00:00"
+      "observed_at": "2026-11-23T23:53:23+00:00"
     },
     {
       "arxiv_id": "2412.20138",
-      "upvotes": 169,
-      "observed_at": "2026-11-22T19:40:20+00:00"
+      "upvotes": 168,
+      "observed_at": "2026-11-23T23:53:23+00:00"
     },
     {
       "arxiv_id": "2605.03042",
-      "upvotes": 158,
-      "observed_at": "2026-11-22T19:40:20+00:00"
+      "upvotes": 157,
+      "observed_at": "2026-11-23T23:53:23+00:00"
     },
     {
       "arxiv_id": "2508.19205",
-      "upvotes": 187,
-      "observed_at": "2026-11-22T19:40:20+00:00"
+      "upvotes": 188,
+      "observed_at": "2026-11-23T23:53:23+00:00"
     },
     {
       "arxiv_id": "2610.22471",
@@ -611,8 +581,8 @@
     },
     {
       "arxiv_id": "2611.18397",
-      "upvotes": 150,
-      "observed_at": "2026-11-22T19:40:20+00:00"
+      "upvotes": 156,
+      "observed_at": "2026-11-23T23:53:23+00:00"
     },
     {
       "arxiv_id": "2611.24738",
@@ -622,7 +592,12 @@
     {
       "arxiv_id": "2603.16790",
       "upvotes": 169,
-      "observed_at": "2026-11-22T19:40:20+00:00"
+      "observed_at": "2026-11-23T23:53:23+00:00"
+    },
+    {
+      "arxiv_id": "2403.13372",
+      "upvotes": 188,
+      "observed_at": "2026-11-23T23:53:23+00:00"
     }
   ]
 }
