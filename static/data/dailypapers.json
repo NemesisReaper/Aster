@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-23T23:53:23+00:00",
+  "updated_at": "2026-11-24T22:26:21+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
@@ -56,8 +56,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 1,
-        "per_day": 0.9
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -102,8 +102,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": null,
-        "per_day": null
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -204,8 +204,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": -1,
-        "per_day": -0.9
+        "change": 0,
+        "per_day": 0.0
       }
     },
     {
@@ -260,6 +260,59 @@
       "upvote_velocity": {
         "change": 0,
         "per_day": 0.0
+      }
+    },
+    {
+      "id": "arxiv:2611.29897",
+      "arxiv_id": "2611.29897",
+      "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+      "authors": [
+        "Yue Huang",
+        "Tianshan Zhang",
+        "Zeyu Zhang",
+        "Jayeon Kang",
+        "Akide Liu",
+        "Sungjoon Choi",
+        "Dacheng Tao",
+        "Hao Tang"
+      ],
+      "abstract": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates local attention, resumable recurrent states, and persistent content memory (PCM) for long-horizon controllable motion generation. PCM transforms compressed motion history from Mamba recurrent states, together with state changes and text-conditioned features, into dynamically updated content slots accessible to local attention. To enable efficient inference, we further develop an execution scheme tailored to this architecture, combining CUDA Graph replay, fused kernels, and execution-flow simplification while preserving the canonical history update. Evaluations on retargeted HiPHI demonstrate accurate terminal control over rollouts of up to 39.52 s, while short-horizon comparisons on BONES Seed and retargeted HumanML3D show that the model also retains strong spatial control and text-motion matching. On an RTX 4090, the optimized execution reduces median complete-window latency from 1685.35 to 276.14 ms, achieving a median paired speedup of 6.138times while preserving identical outputs and committed states in the tested rollouts. Moreover, we conduct extensive real-world evaluation on the Unitree G1, demonstrating sequential text-guided action composition, expressive motion, and interactive locomotion through keyboard and mouse control.",
+      "category": "AI research",
+      "keywords": [
+        "Agents & tools",
+        "Memory & long context",
+        "Evaluation"
+      ],
+      "upvotes": 171,
+      "published_at": "2026-11-22T19:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2611.29897",
+      "arxiv_url": "https://arxiv.org/abs/2611.29897",
+      "pdf_url": "https://arxiv.org/pdf/2611.29897",
+      "discussion_url": "https://huggingface.co/papers/2611.29897",
+      "tldr_20_words": "",
+      "summary_25_words": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates local attention, resumable recurrent states, and persistent content memory (PCM) for long-horizon controllable motion generation. PCM transforms compressed motion history from Mamba recurrent states, together with state changes and text-conditioned features, into dynamically updated content slots accessible to local attention. To enable efficient inference, we further develop an execution scheme tailored to this architecture, combining CUDA Graph replay, fused kernels, and execution-flow simplification while preserving the canonical history update. Evaluations on retargeted HiPHI demonstrate accurate terminal control over rollouts of up to 39.52 s, while short-horizon comparisons on BONES Seed and retargeted HumanML3D show that the model also retains strong spatial control and text-motion matching. On an RTX 4090, the optimized execution reduces median complete-window latency from 1685.35 to 276.14 ms, achieving a median paired speedup of 6.138times while preserving identical outputs and committed states in the tested rollouts. Moreover, we conduct extensive real-world evaluation on the Unitree G1, demonstrating sequential text-guided action composition, expressive motion, and interactive locomotion through keyboard and mouse control.",
+      "breakthrough": "",
+      "example_architecture": "Not specified in the abstract.",
+      "training_strategy": "Not specified in the abstract.",
+      "dataset_curation": "Not specified in the abstract.",
+      "tags": [
+        "Agents & tools",
+        "Memory & long context",
+        "Evaluation"
+      ],
+      "reasoning": "Not specified in the abstract.",
+      "state_space_fusion": "Not specified in the abstract.",
+      "key_mechanism": "Not specified in the abstract.",
+      "evaluation": "Not specified in the abstract.",
+      "three_pillars": {
+        "core_breakthrough": "Not specified in the abstract.",
+        "methodological_novelty": "Not specified in the abstract.",
+        "empirical_validation": "Not specified in the abstract."
+      },
+      "summary_source": "abstract",
+      "upvote_velocity": {
+        "change": null,
+        "per_day": null
       }
     },
     {
@@ -348,7 +401,7 @@
       "keywords": [
         "Agents & tools"
       ],
-      "upvotes": 168,
+      "upvotes": 169,
       "published_at": "2024-12-28T07:54:06.000Z",
       "hf_url": "https://huggingface.co/papers/2412.20138",
       "arxiv_url": "https://arxiv.org/abs/2412.20138",
@@ -374,56 +427,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": -1,
-        "per_day": -0.9
-      }
-    },
-    {
-      "id": "arxiv:2605.03042",
-      "arxiv_id": "2605.03042",
-      "title": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration",
-      "authors": [
-        "Ruofeng Yang",
-        "Yongcan Li",
-        "Shuai Li"
-      ],
-      "abstract": "This report describes ARIS (Auto-Research-in-sleep), an open-source research harness for autonomous research, including its architecture, assurance mechanisms, and early deployment experience. The performance of agent systems built on LLMs depends on both the model weights and the harness around them, which governs what information to store, retrieve, and present to the model. For long-horizon research workflows, the central failure mode is not a visible breakdown but a plausible unsupported success: a long-running agent can produce claims whose evidential support is incomplete, misreported, or silently inherited from the executor's framing. Therefore, we present ARIS as a research harness that coordinates machine-learning research workflows through cross-model adversarial collaboration as a default configuration: an executor model drives forward progress while a reviewer from a different model family is recommended to critique intermediate artifacts and request revisions. ARIS has three architectural layers. The execution layer provides more than 65 reusable Markdown-defined skills, model integrations via MCP, a persistent research wiki for iterative reuse of prior findings, and deterministic figure generation. The orchestration layer coordinates five end-to-end workflows with adjustable effort settings and configurable routing to reviewer models. The assurance layer includes a three-stage process for checking whether experimental claims are supported by evidence: integrity verification, result-to-claim mapping, and claim auditing that cross-checks manuscript statements against the claim ledger and raw evidence, as well as a five-pass scientific-editing pipeline, mathematical-proof checks, and visual inspection of the rendered PDF. A prototype self-improvement loop records research traces and proposes harness improvements that are adopted only after reviewer approval.",
-      "category": "AI research",
-      "keywords": [
-        "Agents & tools",
-        "Vision & multimodal",
-        "Reasoning"
-      ],
-      "upvotes": 157,
-      "published_at": "2026-05-03T20:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2605.03042",
-      "arxiv_url": "https://arxiv.org/abs/2605.03042",
-      "pdf_url": "https://arxiv.org/pdf/2605.03042",
-      "discussion_url": "https://huggingface.co/papers/2605.03042",
-      "tldr_20_words": "",
-      "summary_25_words": "This report describes ARIS (Auto-Research-in-sleep), an open-source research harness for autonomous research, including its architecture, assurance mechanisms, and early deployment experience. The performance of agent systems built on LLMs depends on both the model weights and the harness around them, which governs what information to store, retrieve, and present to the model. For long-horizon research workflows, the central failure mode is not a visible breakdown but a plausible unsupported success: a long-running agent can produce claims whose evidential support is incomplete, misreported, or silently inherited from the executor's framing. Therefore, we present ARIS as a research harness that coordinates machine-learning research workflows through cross-model adversarial collaboration as a default configuration: an executor model drives forward progress while a reviewer from a different model family is recommended to critique intermediate artifacts and request revisions. ARIS has three architectural layers. The execution layer provides more than 65 reusable Markdown-defined skills, model integrations via MCP, a persistent research wiki for iterative reuse of prior findings, and deterministic figure generation. The orchestration layer coordinates five end-to-end workflows with adjustable effort settings and configurable routing to reviewer models. The assurance layer includes a three-stage process for checking whether experimental claims are supported by evidence: integrity verification, result-to-claim mapping, and claim auditing that cross-checks manuscript statements against the claim ledger and raw evidence, as well as a five-pass scientific-editing pipeline, mathematical-proof checks, and visual inspection of the rendered PDF. A prototype self-improvement loop records research traces and proposes harness improvements that are adopted only after reviewer approval.",
-      "breakthrough": "",
-      "example_architecture": "Not specified in the abstract.",
-      "training_strategy": "Not specified in the abstract.",
-      "dataset_curation": "Not specified in the abstract.",
-      "tags": [
-        "Agents & tools",
-        "Vision & multimodal",
-        "Reasoning"
-      ],
-      "reasoning": "Not specified in the abstract.",
-      "state_space_fusion": "Not specified in the abstract.",
-      "key_mechanism": "Not specified in the abstract.",
-      "evaluation": "Not specified in the abstract.",
-      "three_pillars": {
-        "core_breakthrough": "Not specified in the abstract.",
-        "methodological_novelty": "Not specified in the abstract.",
-        "empirical_validation": "Not specified in the abstract."
-      },
-      "summary_source": "abstract",
-      "upvote_velocity": {
-        "change": -1,
-        "per_day": -0.9
+        "change": 1,
+        "per_day": 1.1
       }
     },
     {
@@ -466,7 +471,7 @@
         "Memory & long context",
         "RL & feedback"
       ],
-      "upvotes": 156,
+      "upvotes": 161,
       "published_at": "2026-11-12T19:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2611.18397",
       "arxiv_url": "https://arxiv.org/abs/2611.18397",
@@ -494,8 +499,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 6,
-        "per_day": 5.1
+        "change": 5,
+        "per_day": 5.3
       }
     }
   ],
@@ -505,15 +510,15 @@
       "count": 3
     },
     {
-      "tag": "Vision & multimodal",
+      "tag": "Memory & long context",
       "count": 3
     },
     {
-      "tag": "Memory & long context",
+      "tag": "Evaluation",
       "count": 2
     },
     {
-      "tag": "Reasoning",
+      "tag": "Vision & multimodal",
       "count": 2
     },
     {
@@ -521,11 +526,11 @@
       "count": 1
     },
     {
-      "tag": "Evaluation",
+      "tag": "Generative models",
       "count": 1
     },
     {
-      "tag": "Generative models",
+      "tag": "Reasoning",
       "count": 1
     },
     {
@@ -542,17 +547,17 @@
     {
       "arxiv_id": "2509.22186",
       "upvotes": 184,
-      "observed_at": "2026-11-23T23:53:23+00:00"
+      "observed_at": "2026-11-24T22:26:21+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 178,
-      "observed_at": "2026-11-23T23:53:23+00:00"
+      "observed_at": "2026-11-24T22:26:21+00:00"
     },
     {
       "arxiv_id": "2412.20138",
-      "upvotes": 168,
-      "observed_at": "2026-11-23T23:53:23+00:00"
+      "upvotes": 169,
+      "observed_at": "2026-11-24T22:26:21+00:00"
     },
     {
       "arxiv_id": "2605.03042",
@@ -562,7 +567,7 @@
     {
       "arxiv_id": "2508.19205",
       "upvotes": 188,
-      "observed_at": "2026-11-23T23:53:23+00:00"
+      "observed_at": "2026-11-24T22:26:21+00:00"
     },
     {
       "arxiv_id": "2610.22471",
@@ -581,8 +586,8 @@
     },
     {
       "arxiv_id": "2611.18397",
-      "upvotes": 156,
-      "observed_at": "2026-11-23T23:53:23+00:00"
+      "upvotes": 161,
+      "observed_at": "2026-11-24T22:26:21+00:00"
     },
     {
       "arxiv_id": "2611.24738",
@@ -592,12 +597,17 @@
     {
       "arxiv_id": "2603.16790",
       "upvotes": 169,
-      "observed_at": "2026-11-23T23:53:23+00:00"
+      "observed_at": "2026-11-24T22:26:21+00:00"
     },
     {
       "arxiv_id": "2403.13372",
       "upvotes": 188,
-      "observed_at": "2026-11-23T23:53:23+00:00"
+      "observed_at": "2026-11-24T22:26:21+00:00"
+    },
+    {
+      "arxiv_id": "2611.29897",
+      "upvotes": 171,
+      "observed_at": "2026-11-24T22:26:21+00:00"
     }
   ]
 }
