@@ -1,45 +1,50 @@
 {
   "schema_version": 1,
   "source": "Hugging Face Daily Papers",
-  "updated_at": "2026-11-25T21:41:30+00:00",
+  "updated_at": "2026-11-26T21:31:18+00:00",
   "summary_provider": "Raw abstract fallback",
   "papers": [
     {
-      "id": "arxiv:2611.29897",
-      "arxiv_id": "2611.29897",
-      "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+      "id": "arxiv:2605.23904",
+      "arxiv_id": "2605.23904",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
       "authors": [
-        "Yue Huang",
-        "Tianshan Zhang",
-        "Zeyu Zhang",
-        "Jayeon Kang",
-        "Akide Liu",
-        "Sungjoon Choi",
-        "Dacheng Tao",
-        "Hao Tang"
+        "Yifan Yang",
+        "Ziyang Gong",
+        "Weiquan Huang",
+        "Qihao Yang",
+        "Ziwei Zhou",
+        "Zisu Huang",
+        "Yan Li",
+        "Xuemei Gao",
+        "Qi Dai",
+        "Bei Liu",
+        "Kai Qiu",
+        "Yuqing Yang",
+        "Dongdong Chen",
+        "Xue Yang",
+        "Chong Luo"
       ],
-      "abstract": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates local attention, resumable recurrent states, and persistent content memory (PCM) for long-horizon controllable motion generation. PCM transforms compressed motion history from Mamba recurrent states, together with state changes and text-conditioned features, into dynamically updated content slots accessible to local attention. To enable efficient inference, we further develop an execution scheme tailored to this architecture, combining CUDA Graph replay, fused kernels, and execution-flow simplification while preserving the canonical history update. Evaluations on retargeted HiPHI demonstrate accurate terminal control over rollouts of up to 39.52 s, while short-horizon comparisons on BONES Seed and retargeted HumanML3D show that the model also retains strong spatial control and text-motion matching. On an RTX 4090, the optimized execution reduces median complete-window latency from 1685.35 to 276.14 ms, achieving a median paired speedup of 6.138times while preserving identical outputs and committed states in the tested rollouts. Moreover, we conduct extensive real-world evaluation on the Unitree G1, demonstrating sequential text-guided action composition, expressive motion, and interactive locomotion through keyboard and mouse control.",
+      "abstract": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained as the external state of a frozen agent, with the same discipline that makes weight-space optimization reproducible. SkillOpt is, to our knowledge, the first systematic controllable text-space optimizer for agent skills: a separate optimizer model turns scored rollouts into bounded add/delete/replace edits on a single skill document, and an edit is accepted only when it strictly improves a held-out validation score. A textual learning-rate budget, rejected-edit buffer, and epoch-wise slow/meta update make skill training stable while adding zero inference-time model calls at deployment. Across six benchmarks, seven target models, and three execution harnesses (direct chat, Codex, Claude Code), SkillOpt is best or tied on all 52 evaluated (model, benchmark, harness) cells and beats every per-cell competitor among human, one-shot LLM, Trace2Skill, TextGrad, GEPA, and EvoSkill skills. On GPT-5.5 it lifts the average no-skill accuracy by +23.5 points in direct chat, by +24.8 inside the Codex agentic loop, and by +19.1 inside Claude Code. Transfer experiments further show that optimized skill artifacts retain value when moved across model scales, between Codex and Claude Code execution environments, and to a nearby math benchmark without further optimization.",
       "category": "AI research",
       "keywords": [
         "Agents & tools",
-        "Memory & long context",
         "Evaluation"
       ],
-      "upvotes": 194,
-      "published_at": "2026-11-22T19:00:00.000Z",
-      "hf_url": "https://huggingface.co/papers/2611.29897",
-      "arxiv_url": "https://arxiv.org/abs/2611.29897",
-      "pdf_url": "https://arxiv.org/pdf/2611.29897",
-      "discussion_url": "https://huggingface.co/papers/2611.29897",
+      "upvotes": 219,
+      "published_at": "2026-05-21T20:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2605.23904",
+      "arxiv_url": "https://arxiv.org/abs/2605.23904",
+      "pdf_url": "https://arxiv.org/pdf/2605.23904",
+      "discussion_url": "https://huggingface.co/papers/2605.23904",
       "tldr_20_words": "",
-      "summary_25_words": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates local attention, resumable recurrent states, and persistent content memory (PCM) for long-horizon controllable motion generation. PCM transforms compressed motion history from Mamba recurrent states, together with state changes and text-conditioned features, into dynamically updated content slots accessible to local attention. To enable efficient inference, we further develop an execution scheme tailored to this architecture, combining CUDA Graph replay, fused kernels, and execution-flow simplification while preserving the canonical history update. Evaluations on retargeted HiPHI demonstrate accurate terminal control over rollouts of up to 39.52 s, while short-horizon comparisons on BONES Seed and retargeted HumanML3D show that the model also retains strong spatial control and text-motion matching. On an RTX 4090, the optimized execution reduces median complete-window latency from 1685.35 to 276.14 ms, achieving a median paired speedup of 6.138times while preserving identical outputs and committed states in the tested rollouts. Moreover, we conduct extensive real-world evaluation on the Unitree G1, demonstrating sequential text-guided action composition, expressive motion, and interactive locomotion through keyboard and mouse control.",
+      "summary_25_words": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained as the external state of a frozen agent, with the same discipline that makes weight-space optimization reproducible. SkillOpt is, to our knowledge, the first systematic controllable text-space optimizer for agent skills: a separate optimizer model turns scored rollouts into bounded add/delete/replace edits on a single skill document, and an edit is accepted only when it strictly improves a held-out validation score. A textual learning-rate budget, rejected-edit buffer, and epoch-wise slow/meta update make skill training stable while adding zero inference-time model calls at deployment. Across six benchmarks, seven target models, and three execution harnesses (direct chat, Codex, Claude Code), SkillOpt is best or tied on all 52 evaluated (model, benchmark, harness) cells and beats every per-cell competitor among human, one-shot LLM, Trace2Skill, TextGrad, GEPA, and EvoSkill skills. On GPT-5.5 it lifts the average no-skill accuracy by +23.5 points in direct chat, by +24.8 inside the Codex agentic loop, and by +19.1 inside Claude Code. Transfer experiments further show that optimized skill artifacts retain value when moved across model scales, between Codex and Claude Code execution environments, and to a nearby math benchmark without further optimization.",
       "breakthrough": "",
       "example_architecture": "Not specified in the abstract.",
       "training_strategy": "Not specified in the abstract.",
       "dataset_curation": "Not specified in the abstract.",
       "tags": [
         "Agents & tools",
-        "Memory & long context",
         "Evaluation"
       ],
       "reasoning": "Not specified in the abstract.",
@@ -53,8 +58,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 23,
-        "per_day": 23.7
+        "change": null,
+        "per_day": null
       }
     },
     {
@@ -97,52 +102,6 @@
       "tags": [
         "Memory & long context",
         "Generative models"
-      ],
-      "reasoning": "Not specified in the abstract.",
-      "state_space_fusion": "Not specified in the abstract.",
-      "key_mechanism": "Not specified in the abstract.",
-      "evaluation": "Not specified in the abstract.",
-      "three_pillars": {
-        "core_breakthrough": "Not specified in the abstract.",
-        "methodological_novelty": "Not specified in the abstract.",
-        "empirical_validation": "Not specified in the abstract."
-      },
-      "summary_source": "abstract",
-      "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
-      }
-    },
-    {
-      "id": "arxiv:2403.13372",
-      "arxiv_id": "2403.13372",
-      "title": "LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models",
-      "authors": [
-        "Yaowei Zheng",
-        "Richong Zhang",
-        "Junhao Zhang",
-        "Yanhan Ye",
-        "Zheyan Luo"
-      ],
-      "abstract": "Efficient fine-tuning is vital for adapting large language models (LLMs) to\ndownstream tasks. However, it requires non-trivial efforts to implement these\nmethods on different models. We present LlamaFactory, a unified framework that\nintegrates a suite of cutting-edge efficient training methods. It allows users\nto flexibly customize the fine-tuning of 100+ LLMs without the need for coding\nthrough the built-in web UI LlamaBoard. We empirically validate the efficiency\nand effectiveness of our framework on language modeling and text generation\ntasks. It has been released at https://github.com/hiyouga/LLaMA-Factory and\nalready received over 13,000 stars and 1,600 forks.",
-      "category": "AI research",
-      "keywords": [
-        "AI research"
-      ],
-      "upvotes": 188,
-      "published_at": "2024-03-20T04:08:54.000Z",
-      "hf_url": "https://huggingface.co/papers/2403.13372",
-      "arxiv_url": "https://arxiv.org/abs/2403.13372",
-      "pdf_url": "https://arxiv.org/pdf/2403.13372",
-      "discussion_url": "https://huggingface.co/papers/2403.13372",
-      "tldr_20_words": "",
-      "summary_25_words": "Efficient fine-tuning is vital for adapting large language models (LLMs) to\ndownstream tasks. However, it requires non-trivial efforts to implement these\nmethods on different models. We present LlamaFactory, a unified framework that\nintegrates a suite of cutting-edge efficient training methods. It allows users\nto flexibly customize the fine-tuning of 100+ LLMs without the need for coding\nthrough the built-in web UI LlamaBoard. We empirically validate the efficiency\nand effectiveness of our framework on language modeling and text generation\ntasks. It has been released at https://github.com/hiyouga/LLaMA-Factory and\nalready received over 13,000 stars and 1,600 forks.",
-      "breakthrough": "",
-      "example_architecture": "Not specified in the abstract.",
-      "training_strategy": "Not specified in the abstract.",
-      "dataset_curation": "Not specified in the abstract.",
-      "tags": [
-        "AI research"
       ],
       "reasoning": "Not specified in the abstract.",
       "state_space_fusion": "Not specified in the abstract.",
@@ -401,7 +360,7 @@
       "keywords": [
         "Agents & tools"
       ],
-      "upvotes": 169,
+      "upvotes": 168,
       "published_at": "2024-12-28T07:54:06.000Z",
       "hf_url": "https://huggingface.co/papers/2412.20138",
       "arxiv_url": "https://arxiv.org/abs/2412.20138",
@@ -427,8 +386,8 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 0,
-        "per_day": 0.0
+        "change": -1,
+        "per_day": -1.0
       }
     },
     {
@@ -471,7 +430,7 @@
         "Memory & long context",
         "RL & feedback"
       ],
-      "upvotes": 165,
+      "upvotes": 166,
       "published_at": "2026-11-12T19:00:00.000Z",
       "hf_url": "https://huggingface.co/papers/2611.18397",
       "arxiv_url": "https://arxiv.org/abs/2611.18397",
@@ -499,18 +458,66 @@
       },
       "summary_source": "abstract",
       "upvote_velocity": {
-        "change": 4,
-        "per_day": 4.1
+        "change": 1,
+        "per_day": 1.0
+      }
+    },
+    {
+      "id": "arxiv:2605.03042",
+      "arxiv_id": "2605.03042",
+      "title": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration",
+      "authors": [
+        "Ruofeng Yang",
+        "Yongcan Li",
+        "Shuai Li"
+      ],
+      "abstract": "This report describes ARIS (Auto-Research-in-sleep), an open-source research harness for autonomous research, including its architecture, assurance mechanisms, and early deployment experience. The performance of agent systems built on LLMs depends on both the model weights and the harness around them, which governs what information to store, retrieve, and present to the model. For long-horizon research workflows, the central failure mode is not a visible breakdown but a plausible unsupported success: a long-running agent can produce claims whose evidential support is incomplete, misreported, or silently inherited from the executor's framing. Therefore, we present ARIS as a research harness that coordinates machine-learning research workflows through cross-model adversarial collaboration as a default configuration: an executor model drives forward progress while a reviewer from a different model family is recommended to critique intermediate artifacts and request revisions. ARIS has three architectural layers. The execution layer provides more than 65 reusable Markdown-defined skills, model integrations via MCP, a persistent research wiki for iterative reuse of prior findings, and deterministic figure generation. The orchestration layer coordinates five end-to-end workflows with adjustable effort settings and configurable routing to reviewer models. The assurance layer includes a three-stage process for checking whether experimental claims are supported by evidence: integrity verification, result-to-claim mapping, and claim auditing that cross-checks manuscript statements against the claim ledger and raw evidence, as well as a five-pass scientific-editing pipeline, mathematical-proof checks, and visual inspection of the rendered PDF. A prototype self-improvement loop records research traces and proposes harness improvements that are adopted only after reviewer approval.",
+      "category": "AI research",
+      "keywords": [
+        "Agents & tools",
+        "Vision & multimodal",
+        "Reasoning"
+      ],
+      "upvotes": 158,
+      "published_at": "2026-05-03T20:00:00.000Z",
+      "hf_url": "https://huggingface.co/papers/2605.03042",
+      "arxiv_url": "https://arxiv.org/abs/2605.03042",
+      "pdf_url": "https://arxiv.org/pdf/2605.03042",
+      "discussion_url": "https://huggingface.co/papers/2605.03042",
+      "tldr_20_words": "",
+      "summary_25_words": "This report describes ARIS (Auto-Research-in-sleep), an open-source research harness for autonomous research, including its architecture, assurance mechanisms, and early deployment experience. The performance of agent systems built on LLMs depends on both the model weights and the harness around them, which governs what information to store, retrieve, and present to the model. For long-horizon research workflows, the central failure mode is not a visible breakdown but a plausible unsupported success: a long-running agent can produce claims whose evidential support is incomplete, misreported, or silently inherited from the executor's framing. Therefore, we present ARIS as a research harness that coordinates machine-learning research workflows through cross-model adversarial collaboration as a default configuration: an executor model drives forward progress while a reviewer from a different model family is recommended to critique intermediate artifacts and request revisions. ARIS has three architectural layers. The execution layer provides more than 65 reusable Markdown-defined skills, model integrations via MCP, a persistent research wiki for iterative reuse of prior findings, and deterministic figure generation. The orchestration layer coordinates five end-to-end workflows with adjustable effort settings and configurable routing to reviewer models. The assurance layer includes a three-stage process for checking whether experimental claims are supported by evidence: integrity verification, result-to-claim mapping, and claim auditing that cross-checks manuscript statements against the claim ledger and raw evidence, as well as a five-pass scientific-editing pipeline, mathematical-proof checks, and visual inspection of the rendered PDF. A prototype self-improvement loop records research traces and proposes harness improvements that are adopted only after reviewer approval.",
+      "breakthrough": "",
+      "example_architecture": "Not specified in the abstract.",
+      "training_strategy": "Not specified in the abstract.",
+      "dataset_curation": "Not specified in the abstract.",
+      "tags": [
+        "Agents & tools",
+        "Vision & multimodal",
+        "Reasoning"
+      ],
+      "reasoning": "Not specified in the abstract.",
+      "state_space_fusion": "Not specified in the abstract.",
+      "key_mechanism": "Not specified in the abstract.",
+      "evaluation": "Not specified in the abstract.",
+      "three_pillars": {
+        "core_breakthrough": "Not specified in the abstract.",
+        "methodological_novelty": "Not specified in the abstract.",
+        "empirical_validation": "Not specified in the abstract."
+      },
+      "summary_source": "abstract",
+      "upvote_velocity": {
+        "change": 1,
+        "per_day": 0.3
       }
     }
   ],
   "trending_topics": [
     {
       "tag": "Agents & tools",
-      "count": 3
+      "count": 4
     },
     {
-      "tag": "Memory & long context",
+      "tag": "Vision & multimodal",
       "count": 3
     },
     {
@@ -518,19 +525,15 @@
       "count": 2
     },
     {
-      "tag": "Vision & multimodal",
+      "tag": "Memory & long context",
       "count": 2
     },
     {
-      "tag": "AI research",
-      "count": 1
+      "tag": "Reasoning",
+      "count": 2
     },
     {
       "tag": "Generative models",
-      "count": 1
-    },
-    {
-      "tag": "Reasoning",
       "count": 1
     },
     {
@@ -547,37 +550,32 @@
     {
       "arxiv_id": "2509.22186",
       "upvotes": 184,
-      "observed_at": "2026-11-25T21:41:30+00:00"
+      "observed_at": "2026-11-26T21:31:18+00:00"
     },
     {
       "arxiv_id": "2503.11576",
       "upvotes": 178,
-      "observed_at": "2026-11-25T21:41:30+00:00"
+      "observed_at": "2026-11-26T21:31:18+00:00"
     },
     {
       "arxiv_id": "2412.20138",
-      "upvotes": 169,
-      "observed_at": "2026-11-25T21:41:30+00:00"
+      "upvotes": 168,
+      "observed_at": "2026-11-26T21:31:18+00:00"
     },
     {
       "arxiv_id": "2605.03042",
-      "upvotes": 157,
-      "observed_at": "2026-11-23T23:53:23+00:00"
+      "upvotes": 158,
+      "observed_at": "2026-11-26T21:31:18+00:00"
     },
     {
       "arxiv_id": "2508.19205",
       "upvotes": 188,
-      "observed_at": "2026-11-25T21:41:30+00:00"
-    },
-    {
-      "arxiv_id": "2608.16157",
-      "upvotes": 110,
-      "observed_at": "2026-11-18T20:30:41+00:00"
+      "observed_at": "2026-11-26T21:31:18+00:00"
     },
     {
       "arxiv_id": "2611.18397",
-      "upvotes": 165,
-      "observed_at": "2026-11-25T21:41:30+00:00"
+      "upvotes": 166,
+      "observed_at": "2026-11-26T21:31:18+00:00"
     },
     {
       "arxiv_id": "2611.24738",
@@ -587,7 +585,7 @@
     {
       "arxiv_id": "2603.16790",
       "upvotes": 169,
-      "observed_at": "2026-11-25T21:41:30+00:00"
+      "observed_at": "2026-11-26T21:31:18+00:00"
     },
     {
       "arxiv_id": "2403.13372",
@@ -598,6 +596,11 @@
       "arxiv_id": "2611.29897",
       "upvotes": 194,
       "observed_at": "2026-11-25T21:41:30+00:00"
+    },
+    {
+      "arxiv_id": "2605.23904",
+      "upvotes": 219,
+      "observed_at": "2026-11-26T21:31:18+00:00"
     }
   ]
 }
